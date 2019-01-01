@@ -30,6 +30,15 @@
     </license>
   </licenses>
 
+  <modules>
+    <module>parent</module>
+    <module>api</module>
+    <module>web</module>
+    <module>wotlk-dbscript</module>
+    <module>bc-dbscript</module>
+    <module>vanilla-dbscript</module>
+  </modules>
+
   <profiles>
     <!-- Build complete project -->
     <profile>
@@ -43,7 +52,7 @@
         <module>web</module>
         <module>wotlk-dbscript</module>
         <module>bc-dbscript</module>
-        <module>classic-dbscript</module>
+        <module>vanilla-dbscript</module>
       </modules>
     </profile>
     <profile>
@@ -54,7 +63,7 @@
         <module>web</module>
         <module>wotlk-dbscript</module>
         <module>bc-dbscript</module>
-        <module>classic-dbscript</module>
+        <module>vanilla-dbscript</module>
       </modules>
     </profile>
     <!--

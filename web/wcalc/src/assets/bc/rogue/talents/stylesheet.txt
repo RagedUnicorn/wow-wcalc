@@ -1,0 +1,359 @@
+.rogue {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.rogue-Ability_Ambush {
+    width: 64px;
+    height: 64px;
+    background-position: -1px -1px;
+}
+
+.rogue-Ability_BackStab {
+    width: 64px;
+    height: 64px;
+    background-position: -67px -1px;
+}
+
+.rogue-Ability_Creature_Poison_06 {
+    width: 64px;
+    height: 64px;
+    background-position: -133px -1px;
+}
+
+.rogue-Ability_CriticalStrike {
+    width: 64px;
+    height: 64px;
+    background-position: -199px -1px;
+}
+
+.rogue-Ability_Druid_Disembowel {
+    width: 64px;
+    height: 64px;
+    background-position: -265px -1px;
+}
+
+.rogue-Ability_DualWield {
+    width: 64px;
+    height: 64px;
+    background-position: -331px -1px;
+}
+
+.rogue-Ability_Kick {
+    width: 64px;
+    height: 64px;
+    background-position: -397px -1px;
+}
+
+.rogue-Ability_Marksmanship {
+    width: 64px;
+    height: 64px;
+    background-position: -463px -1px;
+}
+
+.rogue-Ability_Parry {
+    width: 64px;
+    height: 64px;
+    background-position: -529px -1px;
+}
+
+.rogue-Ability_Poisons {
+    width: 64px;
+    height: 64px;
+    background-position: -595px -1px;
+}
+
+.rogue-Ability_Racial_Avatar {
+    width: 64px;
+    height: 64px;
+    background-position: -661px -1px;
+}
+
+.rogue-Ability_Rogue_Ambush {
+    width: 64px;
+    height: 64px;
+    background-position: -727px -1px;
+}
+
+.rogue-Ability_Rogue_BladeTwisting {
+    width: 64px;
+    height: 64px;
+    background-position: -793px -1px;
+}
+
+.rogue-Ability_Rogue_CheatDeath {
+    width: 64px;
+    height: 64px;
+    background-position: -859px -1px;
+}
+
+.rogue-Ability_Rogue_DeadenedNerves {
+    width: 64px;
+    height: 64px;
+    background-position: -925px -1px;
+}
+
+.rogue-Ability_Rogue_EnvelopingShadows {
+    width: 64px;
+    height: 64px;
+    background-position: -991px -1px;
+}
+
+.rogue-Ability_Rogue_FeignDeath {
+    width: 64px;
+    height: 64px;
+    background-position: -1057px -1px;
+}
+
+.rogue-Ability_Rogue_Feint {
+    width: 64px;
+    height: 64px;
+    background-position: -1123px -1px;
+}
+
+.rogue-Ability_Rogue_FindWeakness {
+    width: 64px;
+    height: 64px;
+    background-position: -1189px -1px;
+}
+
+.rogue-Ability_Rogue_FleetFooted {
+    width: 64px;
+    height: 64px;
+    background-position: -1255px -1px;
+}
+
+.rogue-Ability_Rogue_KidneyShot {
+    width: 64px;
+    height: 64px;
+    background-position: -1321px -1px;
+}
+
+.rogue-Ability_Rogue_MasterOfSubtlety {
+    width: 64px;
+    height: 64px;
+    background-position: -1387px -1px;
+}
+
+.rogue-Ability_Rogue_NervesOfSteel {
+    width: 64px;
+    height: 64px;
+    background-position: -1453px -1px;
+}
+
+.rogue-Ability_Rogue_QuickRecovery {
+    width: 64px;
+    height: 64px;
+    background-position: -1519px -1px;
+}
+
+.rogue-Ability_Rogue_ShadowStrikes {
+    width: 64px;
+    height: 64px;
+    background-position: -1585px -1px;
+}
+
+.rogue-Ability_Rogue_Shadowstep {
+    width: 64px;
+    height: 64px;
+    background-position: -1651px -1px;
+}
+
+.rogue-Ability_Rogue_SinisterCalling {
+    width: 64px;
+    height: 64px;
+    background-position: -1717px -1px;
+}
+
+.rogue-Ability_Rogue_SliceDice {
+    width: 64px;
+    height: 64px;
+    background-position: -1783px -1px;
+}
+
+.rogue-Ability_Rogue_Sprint {
+    width: 64px;
+    height: 64px;
+    background-position: -1849px -1px;
+}
+
+.rogue-Ability_Rogue_SurpriseAttack {
+    width: 64px;
+    height: 64px;
+    background-position: -1915px -1px;
+}
+
+.rogue-Ability_Sap {
+    width: 64px;
+    height: 64px;
+    background-position: -1981px -1px;
+}
+
+.rogue-Ability_Stealth {
+    width: 64px;
+    height: 64px;
+    background-position: -2047px -1px;
+}
+
+.rogue-Ability_Warrior_Challange {
+    width: 64px;
+    height: 64px;
+    background-position: -2113px -1px;
+}
+
+.rogue-Ability_Warrior_DecisiveStrike {
+    width: 64px;
+    height: 64px;
+    background-position: -2179px -1px;
+}
+
+.rogue-Ability_Warrior_PunishingBlow {
+    width: 64px;
+    height: 64px;
+    background-position: -2245px -1px;
+}
+
+.rogue-Ability_Warrior_Revenge {
+    width: 64px;
+    height: 64px;
+    background-position: -2311px -1px;
+}
+
+.rogue-Ability_Warrior_Riposte {
+    width: 64px;
+    height: 64px;
+    background-position: -2377px -1px;
+}
+
+.rogue-INV_Gauntlets_04 {
+    width: 64px;
+    height: 64px;
+    background-position: -2443px -1px;
+}
+
+.rogue-INV_Mace_01 {
+    width: 64px;
+    height: 64px;
+    background-position: -2509px -1px;
+}
+
+.rogue-INV_Sword_17 {
+    width: 64px;
+    height: 64px;
+    background-position: -2575px -1px;
+}
+
+.rogue-INV_Sword_27 {
+    width: 64px;
+    height: 64px;
+    background-position: -2641px -1px;
+}
+
+.rogue-INV_Weapon_Crossbow_11 {
+    width: 64px;
+    height: 64px;
+    background-position: -2707px -1px;
+}
+
+.rogue-INV_Weapon_ShortBlade_05 {
+    width: 64px;
+    height: 64px;
+    background-position: -2773px -1px;
+}
+
+.rogue-INV_Weapon_Shortblade_38 {
+    width: 64px;
+    height: 64px;
+    background-position: -2839px -1px;
+}
+
+.rogue-Spell_Holy_BlessingOfStrength {
+    width: 64px;
+    height: 64px;
+    background-position: -2905px -1px;
+}
+
+.rogue-Spell_Ice_Lament {
+    width: 64px;
+    height: 64px;
+    background-position: -2971px -1px;
+}
+
+.rogue-Spell_Magic_LesserInvisibilty {
+    width: 64px;
+    height: 64px;
+    background-position: -3037px -1px;
+}
+
+.rogue-Spell_Nature_EarthBindTotem {
+    width: 64px;
+    height: 64px;
+    background-position: -3103px -1px;
+}
+
+.rogue-Spell_Nature_MirrorImage {
+    width: 64px;
+    height: 64px;
+    background-position: -3169px -1px;
+}
+
+.rogue-Spell_Shadow_AntiShadow {
+    width: 64px;
+    height: 64px;
+    background-position: -3235px -1px;
+}
+
+.rogue-Spell_Shadow_ChillTouch {
+    width: 64px;
+    height: 64px;
+    background-position: -3301px -1px;
+}
+
+.rogue-Spell_Shadow_Curse {
+    width: 64px;
+    height: 64px;
+    background-position: -3367px -1px;
+}
+
+.rogue-Spell_Shadow_DeathScream {
+    width: 64px;
+    height: 64px;
+    background-position: -3433px -1px;
+}
+
+.rogue-Spell_Shadow_Fumble {
+    width: 64px;
+    height: 64px;
+    background-position: -3499px -1px;
+}
+
+.rogue-Spell_Shadow_LifeDrain {
+    width: 64px;
+    height: 64px;
+    background-position: -3565px -1px;
+}
+
+.rogue-Spell_Shadow_Possession {
+    width: 64px;
+    height: 64px;
+    background-position: -3631px -1px;
+}
+
+.rogue-Spell_Shadow_ShadowWard {
+    width: 64px;
+    height: 64px;
+    background-position: -3697px -1px;
+}
+
+.rogue-Spell_Shadow_ShadowWordDominate {
+    width: 64px;
+    height: 64px;
+    background-position: -3763px -1px;
+}
+
+.rogue-Spell_Shadow_SummonSuccubus {
+    width: 64px;
+    height: 64px;
+    background-position: -3829px -1px;
+}

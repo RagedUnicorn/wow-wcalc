@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<!-- TODO set debug to false in prod -->
+<log4j:configuration debug="true"
+                     xmlns:log4j='http://jakarta.apache.org/log4j/'>
+
+  <appender name="console" class="org.apache.log4j.ConsoleAppender">
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern"
+             value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+    </layout>
+  </appender>
+
+  <appender name="applicationLog" class="org.apache.log4j.RollingFileAppender">
+    <param name="append" value="false"/>
+    <param name="maxFileSize" value="10MB"/>
+    <param name="maxBackupIndex" value="10"/>
+    <param name="file" value="${catalina.home}/logs/wcalc-api.application.log"/>
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern"
+             value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+    </layout>
+  </appender>
+
+  <appender name="hibernateLog" class="org.apache.log4j.RollingFileAppender">
+    <param name="append" value="false"/>
+    <param name="maxFileSize" value="10MB"/>
+    <param name="maxBackupIndex" value="10"/>
+    <param name="file" value="${catalina.home}/logs/wcalc-api.hibernate.log"/>
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern"
+             value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+    </layout>
+  </appender>
+
+  <appender name="performanceLog" class="org.apache.log4j.RollingFileAppender">
+    <param name="append" value="false"/>
+    <param name="maxFileSize" value="10MB"/>
+    <param name="maxBackupIndex" value="10"/>
+    <param name="file" value="${catalina.home}/logs/wcalc-api.performance.log"/>
+    <layout class="org.apache.log4j.PatternLayout">
+      <param name="ConversionPattern"
+             value="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+    </layout>
+  </appender>
+
+  <logger name="org.hibernate" additivity="false">
+    <level value="INFO" />
+    <appender-ref ref="console"/>
+    <appender-ref ref="hibernateLog" />
+  </logger>
+
+  <logger name="org.hibernate.cache" additivity="false">
+    <level value="DEBUG" />
+    <appender-ref ref="console"/>
+  </logger>
+
+  <logger name="com.mchange.v2.c3p0" additivity="false">
+    <level value="DEBUG" />
+    <appender-ref ref="hibernateLog" />
+  </logger>
+
+  <logger name="performanceLogger" additivity="false">
+    <level value="DEBUG" />
+    <appender-ref ref="performanceLog" />
+  </logger>
+
+  <root>
+    <level value="INFO"/>
+    <appender-ref ref="console"/>
+    <appender-ref ref="applicationLog"/>
+  </root>
+</log4j:configuration>

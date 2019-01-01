@@ -1,0 +1,43 @@
+// image base paths
+$base-path: "/assets/";
+$background-path: "trees";
+$talent-path: "talents";
+
+
+$background_pattern: "tree_sprite.png";
+$talent_pattern: "talent_sprite.png";
+
+$symbols_spritesheet: "symbols_spritesheet.png";
+
+
+
+// version names
+$classic: "classic";
+$bc: "bc";
+$wotlk: "wotlk";
+
+// class names
+$deathknight: "deathknight";
+$druid: "druid";
+$hunter: "hunter";
+$mage: "mage";
+$paladin: "paladin";
+$priest: "priest";
+$rogue: "rogue";
+$shaman: "shaman";
+$warlock: "warlock";
+$warrior: "warrior";
+
+// class paths
+$class-paths: (
+  deathknight: $base-path + "/" + $deathknight,
+  druid: $base-path + "/" + $druid,
+  hunter: $base-path + "/" + $hunter,
+  mage: $base-path + "/" + $mage,
+  paladin: $base-path + "/" + $paladin,
+  priest: $base-path + "/" + $priest,
+  rogue: $base-path + "/" + $rogue,
+  shaman: $base-path + "/" + $shaman,
+  warlock: $base-path + "/" + $warlock,
+  warrior: $base-path + "/" + $warrior
+);

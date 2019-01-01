@@ -1,0 +1,299 @@
+.mage {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.mage-inv_wand_01 {
+    width: 64px;
+    height: 64px;
+    background-position: -1px -1px;
+}
+
+.mage-spell_arcane_arcaneresilience {
+    width: 64px;
+    height: 64px;
+    background-position: -67px -1px;
+}
+
+.mage-spell_fire_fire {
+    width: 64px;
+    height: 64px;
+    background-position: -133px -1px;
+}
+
+.mage-spell_fire_firearmor {
+    width: 64px;
+    height: 64px;
+    background-position: -199px -1px;
+}
+
+.mage-spell_fire_fireball {
+    width: 64px;
+    height: 64px;
+    background-position: -265px -1px;
+}
+
+.mage-spell_fire_fireball02 {
+    width: 64px;
+    height: 64px;
+    background-position: -331px -1px;
+}
+
+.mage-spell_fire_flamebolt {
+    width: 64px;
+    height: 64px;
+    background-position: -397px -1px;
+}
+
+.mage-spell_fire_flameshock {
+    width: 64px;
+    height: 64px;
+    background-position: -463px -1px;
+}
+
+.mage-spell_fire_flare {
+    width: 64px;
+    height: 64px;
+    background-position: -529px -1px;
+}
+
+.mage-spell_fire_immolation {
+    width: 64px;
+    height: 64px;
+    background-position: -595px -1px;
+}
+
+.mage-spell_fire_incinerate {
+    width: 64px;
+    height: 64px;
+    background-position: -661px -1px;
+}
+
+.mage-spell_fire_masterofelements {
+    width: 64px;
+    height: 64px;
+    background-position: -727px -1px;
+}
+
+.mage-spell_fire_meteorstorm {
+    width: 64px;
+    height: 64px;
+    background-position: -793px -1px;
+}
+
+.mage-spell_fire_sealoffire {
+    width: 64px;
+    height: 64px;
+    background-position: -859px -1px;
+}
+
+.mage-spell_fire_selfdestruct {
+    width: 64px;
+    height: 64px;
+    background-position: -925px -1px;
+}
+
+.mage-spell_fire_soulburn {
+    width: 64px;
+    height: 64px;
+    background-position: -991px -1px;
+}
+
+.mage-spell_frost_chillingblast {
+    width: 64px;
+    height: 64px;
+    background-position: -1057px -1px;
+}
+
+.mage-spell_frost_freezingbreath {
+    width: 64px;
+    height: 64px;
+    background-position: -1123px -1px;
+}
+
+.mage-spell_frost_frost {
+    width: 64px;
+    height: 64px;
+    background-position: -1189px -1px;
+}
+
+.mage-spell_frost_frostarmor {
+    width: 64px;
+    height: 64px;
+    background-position: -1255px -1px;
+}
+
+.mage-spell_frost_frostbolt {
+    width: 64px;
+    height: 64px;
+    background-position: -1321px -1px;
+}
+
+.mage-spell_frost_frostbolt02 {
+    width: 64px;
+    height: 64px;
+    background-position: -1387px -1px;
+}
+
+.mage-spell_frost_frostshock {
+    width: 64px;
+    height: 64px;
+    background-position: -1453px -1px;
+}
+
+.mage-spell_frost_frostward {
+    width: 64px;
+    height: 64px;
+    background-position: -1519px -1px;
+}
+
+.mage-spell_frost_glacier {
+    width: 64px;
+    height: 64px;
+    background-position: -1585px -1px;
+}
+
+.mage-spell_frost_iceshard {
+    width: 64px;
+    height: 64px;
+    background-position: -1651px -1px;
+}
+
+.mage-spell_frost_iceshock {
+    width: 64px;
+    height: 64px;
+    background-position: -1717px -1px;
+}
+
+.mage-spell_frost_icestorm {
+    width: 64px;
+    height: 64px;
+    background-position: -1783px -1px;
+}
+
+.mage-spell_frost_stun {
+    width: 64px;
+    height: 64px;
+    background-position: -1849px -1px;
+}
+
+.mage-spell_frost_wisp {
+    width: 64px;
+    height: 64px;
+    background-position: -1915px -1px;
+}
+
+.mage-spell_frost_wizardmark {
+    width: 64px;
+    height: 64px;
+    background-position: -1981px -1px;
+}
+
+.mage-spell_holy_devotion {
+    width: 64px;
+    height: 64px;
+    background-position: -2047px -1px;
+}
+
+.mage-spell_holy_dispelmagic {
+    width: 64px;
+    height: 64px;
+    background-position: -2113px -1px;
+}
+
+.mage-spell_holy_excorcism_02 {
+    width: 64px;
+    height: 64px;
+    background-position: -2179px -1px;
+}
+
+.mage-spell_ice_lament {
+    width: 64px;
+    height: 64px;
+    background-position: -2245px -1px;
+}
+
+.mage-spell_ice_magicdamage {
+    width: 64px;
+    height: 64px;
+    background-position: -2311px -1px;
+}
+
+.mage-spell_nature_abolishmagic {
+    width: 64px;
+    height: 64px;
+    background-position: -2377px -1px;
+}
+
+.mage-spell_nature_astralrecalgroup {
+    width: 64px;
+    height: 64px;
+    background-position: -2443px -1px;
+}
+
+.mage-spell_nature_enchantarmor {
+    width: 64px;
+    height: 64px;
+    background-position: -2509px -1px;
+}
+
+.mage-spell_nature_lightning {
+    width: 64px;
+    height: 64px;
+    background-position: -2575px -1px;
+}
+
+.mage-spell_nature_starfall {
+    width: 64px;
+    height: 64px;
+    background-position: -2641px -1px;
+}
+
+.mage-spell_nature_wispheal {
+    width: 64px;
+    height: 64px;
+    background-position: -2707px -1px;
+}
+
+.mage-spell_nature_wispsplode {
+    width: 64px;
+    height: 64px;
+    background-position: -2773px -1px;
+}
+
+.mage-spell_shadow_charm {
+    width: 64px;
+    height: 64px;
+    background-position: -2839px -1px;
+}
+
+.mage-spell_shadow_darkritual {
+    width: 64px;
+    height: 64px;
+    background-position: -2905px -1px;
+}
+
+.mage-spell_shadow_detectlesserinvisibility {
+    width: 64px;
+    height: 64px;
+    background-position: -2971px -1px;
+}
+
+.mage-spell_shadow_manaburn {
+    width: 64px;
+    height: 64px;
+    background-position: -3037px -1px;
+}
+
+.mage-spell_shadow_siphonmana {
+    width: 64px;
+    height: 64px;
+    background-position: -3103px -1px;
+}
+
+.mage-spell_shadow_teleport {
+    width: 64px;
+    height: 64px;
+    background-position: -3169px -1px;
+}

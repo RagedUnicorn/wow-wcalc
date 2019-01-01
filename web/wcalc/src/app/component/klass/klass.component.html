@@ -1,0 +1,25 @@
+<div class="main-container">
+  <div class="content-container">
+    <wcalc-klass-navigation
+      [gameVersion]="version">
+    </wcalc-klass-navigation>
+
+    <div *ngIf="klassData" class="class-container">
+      <wcalc-tree
+        [position]="1"
+        [tree]="treeList[0]"
+        [className]="klassData.getKlassName()">
+      </wcalc-tree>
+      <wcalc-tree
+        [position]="2"
+        [tree]="treeList[1]"
+        [className]="klassData.getKlassName()">
+      </wcalc-tree>
+      <wcalc-tree
+        [position]="3"
+        [tree]="treeList[2]"
+        [className]="klassData.getKlassName()">
+      </wcalc-tree>
+    </div>
+  </div>
+</div>

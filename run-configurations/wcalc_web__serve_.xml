@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="wcalc-web [serve]" type="js.build_tools.npm" factoryName="npm">
+    <package-json value="$PROJECT_DIR$/web/wcalc/package.json" />
+    <command value="start" />
+    <node-interpreter value="C:/Program Files/nodejs/node" />
+    <envs />
+    <method />
+  </configuration>
+</component>
+

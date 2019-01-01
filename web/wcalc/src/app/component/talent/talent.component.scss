@@ -1,0 +1,65 @@
+@import "../../sass/mixins/talent-mixin";
+
+.talent {
+  cursor: pointer; // use appropriate cursor for indicating clickable item
+  width: 42px;
+  height: 42px;
+}
+
+.talent.talent-pos0 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.talent.talent-pos1 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.talent.talent-pos2 {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.talent-wrapper .rank {
+  position: absolute;
+  bottom: 5px;
+  right: 6px;
+  font-size: 11px;
+}
+
+.talent.talent-pos3 {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+.talent {
+  /*
+    color yellow - talent fully specced
+  */
+  &.capped {
+    .talent-wrapper {
+      @include generate-talent-wrapper($wotlk, #FBD100, -624px, -2px);
+    }
+  }
+
+  /*
+    color green - talent is active and can be skilled
+  */
+  &.active {
+    .talent-wrapper {
+      @include generate-talent-wrapper($wotlk, #13F719, -562px, -2px);
+    }
+  }
+
+  /*
+    color grey - talent is inactive either there are not enough points spent in that tree or there
+    are no points left. In some cases there are dependencies between some talents
+    this can also lead to a grayed talent
+  */
+  &.inactive {
+    .talent-wrapper {
+      @include generate-talent-wrapper($wotlk, white, -686px, -2px);
+    }
+  }
+}

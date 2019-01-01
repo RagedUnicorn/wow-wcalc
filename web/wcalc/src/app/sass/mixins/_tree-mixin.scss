@@ -1,0 +1,27 @@
+@import "../conf";
+
+/**
+ * generates tree background based on version, class and treename based on a sprite
+ */
+@mixin generate-tree-background($version-name, $class-name, $tree-name, $pos-x, $pos-y: -1px) {
+  @debug "tree-mixin:: Generating tree base background for: #{$class-name}";
+
+  .#{$class-name}.#{$tree-name} {
+    background: {
+      image: url(#{$base-path}/#{$version-name}/#{$class-name}/#{$background-path}/#{$background_pattern});
+      position: $pos-x $pos-y;
+      repeat: no-repeat;
+    }
+    display: inline-block;
+    width: 300px;
+    float: left;
+
+    @if ($version-name == $classic) {
+      height: 446px;
+    } @else if($version-name == $bc) {
+      height: 574px;
+    } @else if($version-name == $wotlk) {
+      height: 702px;
+    }
+  }
+}

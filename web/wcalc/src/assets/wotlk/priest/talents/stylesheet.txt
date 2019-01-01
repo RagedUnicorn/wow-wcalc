@@ -1,0 +1,485 @@
+.priest {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.priest-ability_hibernation {
+    width: 42px;
+    height: 42px;
+    background-position: -1px -1px;
+}
+
+.priest-ability_paladin_infusionoflight {
+    width: 42px;
+    height: 42px;
+    background-position: -45px -1px;
+}
+
+.priest-inv_enchant_essenceeternallarge {
+    width: 42px;
+    height: 42px;
+    background-position: -89px -1px;
+}
+
+.priest-spell_arcane_focusedpower {
+    width: 42px;
+    height: 42px;
+    background-position: -133px -1px;
+}
+
+.priest-spell_arcane_mindmastery {
+    width: 42px;
+    height: 42px;
+    background-position: -177px -1px;
+}
+
+.priest-spell_frost_windwalkon {
+    width: 42px;
+    height: 42px;
+    background-position: -221px -1px;
+}
+
+.priest-spell_holy_absolution {
+    width: 42px;
+    height: 42px;
+    background-position: -265px -1px;
+}
+
+.priest-spell_holy_aspiration {
+    width: 42px;
+    height: 42px;
+    background-position: -309px -1px;
+}
+
+.priest-spell_holy_blessedrecovery {
+    width: 42px;
+    height: 42px;
+    background-position: -353px -1px;
+}
+
+.priest-spell_holy_blessedresillience {
+    width: 42px;
+    height: 42px;
+    background-position: -397px -1px;
+}
+
+.priest-spell_holy_borrowedtime {
+    width: 42px;
+    height: 42px;
+    background-position: -441px -1px;
+}
+
+.priest-spell_holy_chastise {
+    width: 42px;
+    height: 42px;
+    background-position: -485px -1px;
+}
+
+.priest-spell_holy_circleofrenewal {
+    width: 42px;
+    height: 42px;
+    background-position: -529px -1px;
+}
+
+.priest-spell_holy_devineaegis {
+    width: 42px;
+    height: 42px;
+    background-position: -573px -1px;
+}
+
+.priest-spell_holy_divineprovidence {
+    width: 42px;
+    height: 42px;
+    background-position: -617px -1px;
+}
+
+.priest-spell_holy_fanaticism {
+    width: 42px;
+    height: 42px;
+    background-position: -661px -1px;
+}
+
+.priest-spell_holy_greaterheal {
+    width: 42px;
+    height: 42px;
+    background-position: -705px -1px;
+}
+
+.priest-spell_holy_guardianspirit {
+    width: 42px;
+    height: 42px;
+    background-position: -749px -1px;
+}
+
+.priest-spell_holy_heal02 {
+    width: 42px;
+    height: 42px;
+    background-position: -793px -1px;
+}
+
+.priest-spell_holy_healingfocus {
+    width: 42px;
+    height: 42px;
+    background-position: -837px -1px;
+}
+
+.priest-spell_holy_holyprotection {
+    width: 42px;
+    height: 42px;
+    background-position: -881px -1px;
+}
+
+.priest-spell_holy_hopeandgrace {
+    width: 42px;
+    height: 42px;
+    background-position: -925px -1px;
+}
+
+.priest-spell_holy_innerfire {
+    width: 42px;
+    height: 42px;
+    background-position: -969px -1px;
+}
+
+.priest-spell_holy_layonhands {
+    width: 42px;
+    height: 42px;
+    background-position: -1013px -1px;
+}
+
+.priest-spell_holy_painsupression {
+    width: 42px;
+    height: 42px;
+    background-position: -1057px -1px;
+}
+
+.priest-spell_holy_penance {
+    width: 42px;
+    height: 42px;
+    background-position: -1101px -1px;
+}
+
+.priest-spell_holy_powerinfusion {
+    width: 42px;
+    height: 42px;
+    background-position: -1145px -1px;
+}
+
+.priest-spell_holy_powerwordshield {
+    width: 42px;
+    height: 42px;
+    background-position: -1189px -1px;
+}
+
+.priest-spell_holy_prayerofhealing02 {
+    width: 42px;
+    height: 42px;
+    background-position: -1233px -1px;
+}
+
+.priest-spell_holy_pureofheart {
+    width: 42px;
+    height: 42px;
+    background-position: -1277px -1px;
+}
+
+.priest-spell_holy_purify {
+    width: 42px;
+    height: 42px;
+    background-position: -1321px -1px;
+}
+
+.priest-spell_holy_rapture {
+    width: 42px;
+    height: 42px;
+    background-position: -1365px -1px;
+}
+
+.priest-spell_holy_renew {
+    width: 42px;
+    height: 42px;
+    background-position: -1409px -1px;
+}
+
+.priest-spell_holy_restoration {
+    width: 42px;
+    height: 42px;
+    background-position: -1453px -1px;
+}
+
+.priest-spell_holy_sealofsalvation {
+    width: 42px;
+    height: 42px;
+    background-position: -1497px -1px;
+}
+
+.priest-spell_holy_sealofvengeance {
+    width: 42px;
+    height: 42px;
+    background-position: -1541px -1px;
+}
+
+.priest-spell_holy_sealofwrath {
+    width: 42px;
+    height: 42px;
+    background-position: -1585px -1px;
+}
+
+.priest-spell_holy_searinglightpriest {
+    width: 42px;
+    height: 42px;
+    background-position: -1629px -1px;
+}
+
+.priest-spell_holy_serendipity {
+    width: 42px;
+    height: 42px;
+    background-position: -1673px -1px;
+}
+
+.priest-spell_holy_spellwarding {
+    width: 42px;
+    height: 42px;
+    background-position: -1717px -1px;
+}
+
+.priest-spell_holy_spiritualguidence {
+    width: 42px;
+    height: 42px;
+    background-position: -1761px -1px;
+}
+
+.priest-spell_holy_stoicism {
+    width: 42px;
+    height: 42px;
+    background-position: -1805px -1px;
+}
+
+.priest-spell_holy_summonlightwell {
+    width: 42px;
+    height: 42px;
+    background-position: -1849px -1px;
+}
+
+.priest-spell_holy_surgeoflight {
+    width: 42px;
+    height: 42px;
+    background-position: -1893px -1px;
+}
+
+.priest-spell_holy_symbolofhope {
+    width: 42px;
+    height: 42px;
+    background-position: -1937px -1px;
+}
+
+.priest-spell_holy_testoffaith {
+    width: 42px;
+    height: 42px;
+    background-position: -1981px -1px;
+}
+
+.priest-spell_holy_wordfortitude {
+    width: 42px;
+    height: 42px;
+    background-position: -2025px -1px;
+}
+
+.priest-spell_magic_lesserinvisibilty {
+    width: 42px;
+    height: 42px;
+    background-position: -2069px -1px;
+}
+
+.priest-spell_magic_magearmor {
+    width: 42px;
+    height: 42px;
+    background-position: -2113px -1px;
+}
+
+.priest-spell_nature_enchantarmor {
+    width: 42px;
+    height: 42px;
+    background-position: -2157px -1px;
+}
+
+.priest-spell_nature_focusedmind {
+    width: 42px;
+    height: 42px;
+    background-position: -2201px -1px;
+}
+
+.priest-spell_nature_manaregentotem {
+    width: 42px;
+    height: 42px;
+    background-position: -2245px -1px;
+}
+
+.priest-spell_nature_moonglow {
+    width: 42px;
+    height: 42px;
+    background-position: -2289px -1px;
+}
+
+.priest-spell_nature_sleep {
+    width: 42px;
+    height: 42px;
+    background-position: -2333px -1px;
+}
+
+.priest-spell_nature_tranquility {
+    width: 42px;
+    height: 42px;
+    background-position: -2377px -1px;
+}
+
+.priest-spell_shadow_blackplague {
+    width: 42px;
+    height: 42px;
+    background-position: -2421px -1px;
+}
+
+.priest-spell_shadow_burningspirit {
+    width: 42px;
+    height: 42px;
+    background-position: -2465px -1px;
+}
+
+.priest-spell_shadow_chilltouch {
+    width: 42px;
+    height: 42px;
+    background-position: -2509px -1px;
+}
+
+.priest-spell_shadow_devouringplague {
+    width: 42px;
+    height: 42px;
+    background-position: -2553px -1px;
+}
+
+.priest-spell_shadow_dispersion {
+    width: 42px;
+    height: 42px;
+    background-position: -2597px -1px;
+}
+
+.priest-spell_shadow_focusedpower {
+    width: 42px;
+    height: 42px;
+    background-position: -2641px -1px;
+}
+
+.priest-spell_shadow_impphaseshift {
+    width: 42px;
+    height: 42px;
+    background-position: -2685px -1px;
+}
+
+.priest-spell_shadow_improvedvampiricembrace {
+    width: 42px;
+    height: 42px;
+    background-position: -2729px -1px;
+}
+
+.priest-spell_shadow_manaburn {
+    width: 42px;
+    height: 42px;
+    background-position: -2773px -1px;
+}
+
+.priest-spell_shadow_mindtwisting {
+    width: 42px;
+    height: 42px;
+    background-position: -2817px -1px;
+}
+
+.priest-spell_shadow_misery {
+    width: 42px;
+    height: 42px;
+    background-position: -2861px -1px;
+}
+
+.priest-spell_shadow_painandsuffering {
+    width: 42px;
+    height: 42px;
+    background-position: -2905px -1px;
+}
+
+.priest-spell_shadow_psychichorrors {
+    width: 42px;
+    height: 42px;
+    background-position: -2949px -1px;
+}
+
+.priest-spell_shadow_psychicscream {
+    width: 42px;
+    height: 42px;
+    background-position: -2993px -1px;
+}
+
+.priest-spell_shadow_requiem {
+    width: 42px;
+    height: 42px;
+    background-position: -3037px -1px;
+}
+
+.priest-spell_shadow_shadowform {
+    width: 42px;
+    height: 42px;
+    background-position: -3081px -1px;
+}
+
+.priest-spell_shadow_shadowpower {
+    width: 42px;
+    height: 42px;
+    background-position: -3125px -1px;
+}
+
+.priest-spell_shadow_shadowward {
+    width: 42px;
+    height: 42px;
+    background-position: -3169px -1px;
+}
+
+.priest-spell_shadow_shadowwordpain {
+    width: 42px;
+    height: 42px;
+    background-position: -3213px -1px;
+}
+
+.priest-spell_shadow_siphonmana {
+    width: 42px;
+    height: 42px;
+    background-position: -3257px -1px;
+}
+
+.priest-spell_shadow_skull {
+    width: 42px;
+    height: 42px;
+    background-position: -3301px -1px;
+}
+
+.priest-spell_shadow_summonvoidwalker {
+    width: 42px;
+    height: 42px;
+    background-position: -3345px -1px;
+}
+
+.priest-spell_shadow_twilight {
+    width: 42px;
+    height: 42px;
+    background-position: -3389px -1px;
+}
+
+.priest-spell_shadow_unholyfrenzy {
+    width: 42px;
+    height: 42px;
+    background-position: -3433px -1px;
+}
+
+.priest-spell_shadow_unsummonbuilding {
+    width: 42px;
+    height: 42px;
+    background-position: -3477px -1px;
+}

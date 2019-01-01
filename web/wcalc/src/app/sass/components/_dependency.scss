@@ -1,0 +1,205 @@
+@import "../conf";
+
+.dependency {
+  position: relative;
+}
+
+.arrow-inactive {
+  &.v-arrow-short {
+    // this one is done
+    @include generate-dependency($wotlk, -17px, -2px, 'bottom', 'left');
+    top: 4px;
+    left: -11px;
+    height: 15px;
+    width: 25px;
+    transform: rotate(-90deg);
+  }
+
+  &.v-arrow-middle {
+    @include generate-dependency($wotlk, -17px, -2px, 'bottom', 'left');
+    top: 37px;
+    left: -43px;
+    height: 15px;
+    width: 87px;
+    transform: rotate(-90deg);
+  }
+
+  &.v-arrow-long {
+    @include generate-dependency($wotlk, -17px, -2px, 'bottom', 'left');
+    top: 4px;
+    left: -11px;
+    height: 15px;
+    width: 25px;
+    transform: rotate(-90deg);
+  }
+
+  // this is done
+  &.v-arrow-combined-right-short {
+    @include generate-dependency($wotlk, -17px, -2px, 'bottom', 'left');
+    top: -5px;
+    left: 54px;
+    height: 15px;
+    width: 43px;
+    transform: rotate(-90deg);
+  }
+
+  // this is done
+  &.v-arrow-combined-left-short {
+    @include generate-dependency($wotlk, -17px, -2px, 'bottom', 'left');
+    top: -5px;
+    left: -98px;
+    height: 15px;
+    width: 43px;
+    transform: rotate(-90deg);
+  }
+
+  &.v-arrow-combined-middle {
+    @include generate-dependency($wotlk, 0, -22px, 'bottom', 'left');
+    top: -89px;
+    left: 6px;
+    height: 91px;
+    width: 16px;
+  }
+
+  // this one is done
+  &.p-arrow-right-short {
+    @include generate-dependency($wotlk, -29px, -188px, 'top', 'right');
+    top: -27px;
+    left: 24px;
+    height: 8px;
+    width: 56px;
+  }
+
+  // this done
+  &.p-arrow-left-short {
+    @include generate-dependency($wotlk, -29px, -371px, 'top', 'right');
+    top: -27px;
+    left: -79px;
+    height: 8px;
+    width: 56px;
+  }
+
+  /*&.p-arrow-right-middle {
+    @include generate-dependency($wotlk, -71px, -70px, 'top', 'right', 2);
+    top: -92px;
+    left: -15px;
+    height: 13px;
+    width: 36px;
+  }*/
+
+  /*&.p-arrow-left-middle {
+    @include generate-dependency($wotlk, 0, -71px);
+    top: -91px;
+    left: 11px;
+    height: 13px;
+    width: 36px;
+  }*/
+
+  // this one is done
+  &.h-arrow-right {
+    @include generate-dependency($wotlk, -279px, -25px);
+    top: -29px;
+    left: 24px;
+    height: 21px;
+    width: 34px;
+  }
+
+  // this one is done
+  &.h-arrow-left {
+    @include generate-dependency($wotlk, -3px, -24px);
+    top: -29px;
+    left: -54px;
+    height: 21px;
+    width: 34px;
+  }
+}
+
+.arrow-active {
+  &.v-arrow-short {
+    @include generate-dependency($wotlk, -2px, -2px, 'bottom', 'left');
+    top: -34px;
+    left: -54px;
+    height: 20px;
+    width: 35px;
+  }
+
+  &.v-arrow-middle {
+    @include generate-dependency($wotlk, 0, 0, 'bottom', 'left');
+    top: -70px;
+    left: 6px;
+    height: 72px;
+    width: 16px;
+  }
+
+  &.v-arrow-long {
+    @include generate-dependency($wotlk, 0, 0, 'bottom', 'left');
+    top: -123px;
+    left: 6px;
+    height: 125px;
+    width: 16px;
+  }
+
+  &.v-arrow-combined-short {
+    @include generate-dependency($wotlk, 0, -1px, 'bottom', 'left');
+    top: -34px;
+    left: 6px;
+    height: 35px;
+    width: 16px;
+  }
+
+  &.v-arrow-combined-middle {
+    @include generate-dependency($wotlk, 0, -1px, 'bottom', 'left');
+    top: -89px;
+    left: 6px;
+    height: 91px;
+    width: 16px;
+  }
+
+  &.p-arrow-right-short {
+    @include generate-dependency($wotlk, -50px, -70px, 'top', 'right');
+    top: -41px;
+    left: -15px;
+    height: 13px;
+    width: 36px;
+  }
+
+  &.p-arrow-right-middle {
+    @include generate-dependency($wotlk, -50px, -70px, 'top', 'right', 2);
+    top: -92px;
+    left: -15px;
+    height: 13px;
+    width: 36px;
+  }
+
+  &.p-arrow-left-short {
+    @include generate-dependency($wotlk, 0, -50px);
+    top: -39px;
+    left: 11px;
+    height: 13px;
+    width: 36px;
+  }
+
+  &.p-arrow-left-middle {
+    @include generate-dependency($wotlk, 0, -50px);
+    top: -91px;
+    left: 11px;
+    height: 13px;
+    width: 36px;
+  }
+
+  &.h-arrow-right {
+    @include generate-dependency($wotlk, -293px, -3px);
+    top: 9px;
+    left: -18px;
+    height: 21px;
+    width: 19px;
+  }
+
+  &.h-arrow-left {
+    @include generate-dependency($wotlk, 0, -3px);
+    top: 9px;
+    left: 29px;
+    height: 21px;
+    width: 19px;
+  }
+}

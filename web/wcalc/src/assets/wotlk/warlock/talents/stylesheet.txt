@@ -1,0 +1,485 @@
+.warlock {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.warlock-ability_mage_moltenarmor {
+    width: 42px;
+    height: 42px;
+    background-position: -1px -1px;
+}
+
+.warlock-ability_warlock_backdraft {
+    width: 42px;
+    height: 42px;
+    background-position: -45px -1px;
+}
+
+.warlock-ability_warlock_chaosbolt {
+    width: 42px;
+    height: 42px;
+    background-position: -89px -1px;
+}
+
+.warlock-ability_warlock_demonicempowerment {
+    width: 42px;
+    height: 42px;
+    background-position: -133px -1px;
+}
+
+.warlock-ability_warlock_empoweredimp {
+    width: 42px;
+    height: 42px;
+    background-position: -177px -1px;
+}
+
+.warlock-ability_warlock_eradication {
+    width: 42px;
+    height: 42px;
+    background-position: -221px -1px;
+}
+
+.warlock-ability_warlock_everlastingaffliction {
+    width: 42px;
+    height: 42px;
+    background-position: -265px -1px;
+}
+
+.warlock-ability_warlock_fireandbrimstone {
+    width: 42px;
+    height: 42px;
+    background-position: -309px -1px;
+}
+
+.warlock-ability_warlock_haunt {
+    width: 42px;
+    height: 42px;
+    background-position: -353px -1px;
+}
+
+.warlock-ability_warlock_improveddemonictactics {
+    width: 42px;
+    height: 42px;
+    background-position: -397px -1px;
+}
+
+.warlock-ability_warlock_improvedsoulleech {
+    width: 42px;
+    height: 42px;
+    background-position: -441px -1px;
+}
+
+.warlock-ability_warlock_moltencore {
+    width: 42px;
+    height: 42px;
+    background-position: -485px -1px;
+}
+
+.warlock-inv_ammo_firetar {
+    width: 42px;
+    height: 42px;
+    background-position: -529px -1px;
+}
+
+.warlock-inv_stone_04 {
+    width: 42px;
+    height: 42px;
+    background-position: -573px -1px;
+}
+
+.warlock-spell_fire_fire {
+    width: 42px;
+    height: 42px;
+    background-position: -617px -1px;
+}
+
+.warlock-spell_fire_fireball {
+    width: 42px;
+    height: 42px;
+    background-position: -661px -1px;
+}
+
+.warlock-spell_fire_fireball02 {
+    width: 42px;
+    height: 42px;
+    background-position: -705px -1px;
+}
+
+.warlock-spell_fire_firebolt {
+    width: 42px;
+    height: 42px;
+    background-position: -749px -1px;
+}
+
+.warlock-spell_fire_flameshock {
+    width: 42px;
+    height: 42px;
+    background-position: -793px -1px;
+}
+
+.warlock-spell_fire_immolation {
+    width: 42px;
+    height: 42px;
+    background-position: -837px -1px;
+}
+
+.warlock-spell_fire_lavaspawn {
+    width: 42px;
+    height: 42px;
+    background-position: -881px -1px;
+}
+
+.warlock-spell_fire_playingwithfire {
+    width: 42px;
+    height: 42px;
+    background-position: -925px -1px;
+}
+
+.warlock-spell_fire_selfdestruct {
+    width: 42px;
+    height: 42px;
+    background-position: -969px -1px;
+}
+
+.warlock-spell_fire_soulburn {
+    width: 42px;
+    height: 42px;
+    background-position: -1013px -1px;
+}
+
+.warlock-spell_fire_volcano {
+    width: 42px;
+    height: 42px;
+    background-position: -1057px -1px;
+}
+
+.warlock-spell_fire_windsofwoe {
+    width: 42px;
+    height: 42px;
+    background-position: -1101px -1px;
+}
+
+.warlock-spell_holy_magicalsentry {
+    width: 42px;
+    height: 42px;
+    background-position: -1145px -1px;
+}
+
+.warlock-spell_nature_removecurse {
+    width: 42px;
+    height: 42px;
+    background-position: -1189px -1px;
+}
+
+.warlock-spell_shadow_abominationexplosion {
+    width: 42px;
+    height: 42px;
+    background-position: -1233px -1px;
+}
+
+.warlock-spell_shadow_burningspirit {
+    width: 42px;
+    height: 42px;
+    background-position: -1277px -1px;
+}
+
+.warlock-spell_shadow_callofbone {
+    width: 42px;
+    height: 42px;
+    background-position: -1321px -1px;
+}
+
+.warlock-spell_shadow_contagion {
+    width: 42px;
+    height: 42px;
+    background-position: -1365px -1px;
+}
+
+.warlock-spell_shadow_corpseexplode {
+    width: 42px;
+    height: 42px;
+    background-position: -1409px -1px;
+}
+
+.warlock-spell_shadow_curseofachimonde {
+    width: 42px;
+    height: 42px;
+    background-position: -1453px -1px;
+}
+
+.warlock-spell_shadow_curseofmannoroth {
+    width: 42px;
+    height: 42px;
+    background-position: -1497px -1px;
+}
+
+.warlock-spell_shadow_curseofsargeras {
+    width: 42px;
+    height: 42px;
+    background-position: -1541px -1px;
+}
+
+.warlock-spell_shadow_darkritual {
+    width: 42px;
+    height: 42px;
+    background-position: -1585px -1px;
+}
+
+.warlock-spell_shadow_deathpact {
+    width: 42px;
+    height: 42px;
+    background-position: -1629px -1px;
+}
+
+.warlock-spell_shadow_deathscream {
+    width: 42px;
+    height: 42px;
+    background-position: -1673px -1px;
+}
+
+.warlock-spell_shadow_deathsembrace {
+    width: 42px;
+    height: 42px;
+    background-position: -1717px -1px;
+}
+
+.warlock-spell_shadow_demonform {
+    width: 42px;
+    height: 42px;
+    background-position: -1761px -1px;
+}
+
+.warlock-spell_shadow_demonicempathy {
+    width: 42px;
+    height: 42px;
+    background-position: -1805px -1px;
+}
+
+.warlock-spell_shadow_demonicfortitude {
+    width: 42px;
+    height: 42px;
+    background-position: -1849px -1px;
+}
+
+.warlock-spell_shadow_demonicpact {
+    width: 42px;
+    height: 42px;
+    background-position: -1893px -1px;
+}
+
+.warlock-spell_shadow_demonictactics {
+    width: 42px;
+    height: 42px;
+    background-position: -1937px -1px;
+}
+
+.warlock-spell_shadow_felmending {
+    width: 42px;
+    height: 42px;
+    background-position: -1981px -1px;
+}
+
+.warlock-spell_shadow_fingerofdeath {
+    width: 42px;
+    height: 42px;
+    background-position: -2025px -1px;
+}
+
+.warlock-spell_shadow_gathershadows {
+    width: 42px;
+    height: 42px;
+    background-position: -2069px -1px;
+}
+
+.warlock-spell_shadow_grimward {
+    width: 42px;
+    height: 42px;
+    background-position: -2113px -1px;
+}
+
+.warlock-spell_shadow_haunting {
+    width: 42px;
+    height: 42px;
+    background-position: -2157px -1px;
+}
+
+.warlock-spell_shadow_impphaseshift {
+    width: 42px;
+    height: 42px;
+    background-position: -2201px -1px;
+}
+
+.warlock-spell_shadow_improvedvampiricembrace {
+    width: 42px;
+    height: 42px;
+    background-position: -2245px -1px;
+}
+
+.warlock-spell_shadow_lifedrain {
+    width: 42px;
+    height: 42px;
+    background-position: -2289px -1px;
+}
+
+.warlock-spell_shadow_lifedrain02 {
+    width: 42px;
+    height: 42px;
+    background-position: -2333px -1px;
+}
+
+.warlock-spell_shadow_manafeed {
+    width: 42px;
+    height: 42px;
+    background-position: -2377px -1px;
+}
+
+.warlock-spell_shadow_metamorphosis {
+    width: 42px;
+    height: 42px;
+    background-position: -2421px -1px;
+}
+
+.warlock-spell_shadow_netherprotection {
+    width: 42px;
+    height: 42px;
+    background-position: -2465px -1px;
+}
+
+.warlock-spell_shadow_painfulafflictions {
+    width: 42px;
+    height: 42px;
+    background-position: -2509px -1px;
+}
+
+.warlock-spell_shadow_possession {
+    width: 42px;
+    height: 42px;
+    background-position: -2553px -1px;
+}
+
+.warlock-spell_shadow_ragingscream {
+    width: 42px;
+    height: 42px;
+    background-position: -2597px -1px;
+}
+
+.warlock-spell_shadow_requiem {
+    width: 42px;
+    height: 42px;
+    background-position: -2641px -1px;
+}
+
+.warlock-spell_shadow_scourgebuild {
+    width: 42px;
+    height: 42px;
+    background-position: -2685px -1px;
+}
+
+.warlock-spell_shadow_shadetruesight {
+    width: 42px;
+    height: 42px;
+    background-position: -2729px -1px;
+}
+
+.warlock-spell_shadow_shadowandflame {
+    width: 42px;
+    height: 42px;
+    background-position: -2773px -1px;
+}
+
+.warlock-spell_shadow_shadowbolt {
+    width: 42px;
+    height: 42px;
+    background-position: -2817px -1px;
+}
+
+.warlock-spell_shadow_shadowembrace {
+    width: 42px;
+    height: 42px;
+    background-position: -2861px -1px;
+}
+
+.warlock-spell_shadow_shadowfury {
+    width: 42px;
+    height: 42px;
+    background-position: -2905px -1px;
+}
+
+.warlock-spell_shadow_shadowpact {
+    width: 42px;
+    height: 42px;
+    background-position: -2949px -1px;
+}
+
+.warlock-spell_shadow_shadowworddominate {
+    width: 42px;
+    height: 42px;
+    background-position: -2993px -1px;
+}
+
+.warlock-spell_shadow_shadowwordpain {
+    width: 42px;
+    height: 42px;
+    background-position: -3037px -1px;
+}
+
+.warlock-spell_shadow_soulleech_3 {
+    width: 42px;
+    height: 42px;
+    background-position: -3081px -1px;
+}
+
+.warlock-spell_shadow_summonfelguard {
+    width: 42px;
+    height: 42px;
+    background-position: -3125px -1px;
+}
+
+.warlock-spell_shadow_summonfelhunter {
+    width: 42px;
+    height: 42px;
+    background-position: -3169px -1px;
+}
+
+.warlock-spell_shadow_summonimp {
+    width: 42px;
+    height: 42px;
+    background-position: -3213px -1px;
+}
+
+.warlock-spell_shadow_summonsuccubus {
+    width: 42px;
+    height: 42px;
+    background-position: -3257px -1px;
+}
+
+.warlock-spell_shadow_summonvoidwalker {
+    width: 42px;
+    height: 42px;
+    background-position: -3301px -1px;
+}
+
+.warlock-spell_shadow_twilight {
+    width: 42px;
+    height: 42px;
+    background-position: -3345px -1px;
+}
+
+.warlock-spell_shadow_unstableaffliction_2 {
+    width: 42px;
+    height: 42px;
+    background-position: -3389px -1px;
+}
+
+.warlock-spell_shadow_unstableaffliction_3 {
+    width: 42px;
+    height: 42px;
+    background-position: -3433px -1px;
+}
+
+.warlock-spell_shadow_unsummonbuilding {
+    width: 42px;
+    height: 42px;
+    background-position: -3477px -1px;
+}

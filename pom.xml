@@ -1,0 +1,95 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ragedunicorn.wcalc</groupId>
+  <artifactId>reactor</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0.0</version>
+  <name>wow-talentcalculator</name>
+
+  <developers>
+    <developer>
+      <id>wiesendangerm</id>
+      <name>Wiesendanger Michael</name>
+      <email>michael.wiesendanger@gmail.com</email>
+      <organization>ragedunicorn</organization>
+      <roles>
+        <role>architect</role>
+        <role>developer</role>
+      </roles>
+      <timezone>0</timezone>
+    </developer>
+  </developers>
+
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+      <comments>A business-friendly OSS license</comments>
+    </license>
+  </licenses>
+
+  <profiles>
+    <!-- Build complete project -->
+    <profile>
+      <id>development</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <modules>
+        <module>parent</module>
+        <module>api</module>
+        <module>web</module>
+        <module>wotlk-dbscript</module>
+        <module>bc-dbscript</module>
+        <module>classic-dbscript</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>release</id>
+      <modules>
+        <module>parent</module>
+        <module>api</module>
+        <module>web</module>
+        <module>wotlk-dbscript</module>
+        <module>bc-dbscript</module>
+        <module>classic-dbscript</module>
+      </modules>
+    </profile>
+    <!--
+      Build specific modules for backend api only
+    -->
+    <profile>
+      <id>development-api</id>
+      <modules>
+        <module>parent</module>
+        <module>api</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>release-api</id>
+      <modules>
+        <module>parent</module>
+        <module>api</module>
+      </modules>
+    </profile>
+    <!--
+      Build specific modules for web only
+    -->
+    <profile>
+      <id>development-web</id>
+      <modules>
+        <module>parent</module>
+        <module>web</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>release-web</id>
+      <modules>
+        <module>parent</module>
+        <module>web</module>
+      </modules>
+    </profile>
+  </profiles>
+</project>

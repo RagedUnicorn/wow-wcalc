@@ -1,0 +1,335 @@
+.shaman {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.shaman-Ability_DualWield {
+    width: 64px;
+    height: 64px;
+    background-position: -1px -1px;
+}
+
+.shaman-Ability_DualWieldSpecialization {
+    width: 64px;
+    height: 64px;
+    background-position: -67px -1px;
+}
+
+.shaman-Ability_GhoulFrenzy {
+    width: 64px;
+    height: 64px;
+    background-position: -133px -1px;
+}
+
+.shaman-Ability_Hunter_SwiftStrike {
+    width: 64px;
+    height: 64px;
+    background-position: -199px -1px;
+}
+
+.shaman-Ability_Parry {
+    width: 64px;
+    height: 64px;
+    background-position: -265px -1px;
+}
+
+.shaman-Ability_Shaman_Stormstrike {
+    width: 64px;
+    height: 64px;
+    background-position: -331px -1px;
+}
+
+.shaman-Ability_ThunderBolt {
+    width: 64px;
+    height: 64px;
+    background-position: -397px -1px;
+}
+
+.shaman-Spell_Fire_ElementalDevastation {
+    width: 64px;
+    height: 64px;
+    background-position: -463px -1px;
+}
+
+.shaman-Spell_Fire_EnchantWeapon {
+    width: 64px;
+    height: 64px;
+    background-position: -529px -1px;
+}
+
+.shaman-Spell_Fire_FlameTounge {
+    width: 64px;
+    height: 64px;
+    background-position: -595px -1px;
+}
+
+.shaman-Spell_Fire_Immolation {
+    width: 64px;
+    height: 64px;
+    background-position: -661px -1px;
+}
+
+.shaman-Spell_Fire_SealOfFire {
+    width: 64px;
+    height: 64px;
+    background-position: -727px -1px;
+}
+
+.shaman-Spell_Fire_TotemOfWrath {
+    width: 64px;
+    height: 64px;
+    background-position: -793px -1px;
+}
+
+.shaman-Spell_Fire_Volcano {
+    width: 64px;
+    height: 64px;
+    background-position: -859px -1px;
+}
+
+.shaman-Spell_Frost_FrostWard {
+    width: 64px;
+    height: 64px;
+    background-position: -925px -1px;
+}
+
+.shaman-Spell_Frost_Stun {
+    width: 64px;
+    height: 64px;
+    background-position: -991px -1px;
+}
+
+.shaman-Spell_Frost_SummonWaterElemental {
+    width: 64px;
+    height: 64px;
+    background-position: -1057px -1px;
+}
+
+.shaman-Spell_Frost_WizardMark {
+    width: 64px;
+    height: 64px;
+    background-position: -1123px -1px;
+}
+
+.shaman-Spell_Holy_Devotion {
+    width: 64px;
+    height: 64px;
+    background-position: -1189px -1px;
+}
+
+.shaman-Spell_Lightning_LightningBolt01 {
+    width: 64px;
+    height: 64px;
+    background-position: -1255px -1px;
+}
+
+.shaman-Spell_Nature_CallStorm {
+    width: 64px;
+    height: 64px;
+    background-position: -1321px -1px;
+}
+
+.shaman-Spell_Nature_EarthBindTotem {
+    width: 64px;
+    height: 64px;
+    background-position: -1387px -1px;
+}
+
+.shaman-Spell_Nature_ElementalAbsorption {
+    width: 64px;
+    height: 64px;
+    background-position: -1453px -1px;
+}
+
+.shaman-Spell_Nature_ElementalPrecision_1 {
+    width: 64px;
+    height: 64px;
+    background-position: -1519px -1px;
+}
+
+.shaman-Spell_Nature_ElementalShields {
+    width: 64px;
+    height: 64px;
+    background-position: -1585px -1px;
+}
+
+.shaman-Spell_Nature_FocusedMind {
+    width: 64px;
+    height: 64px;
+    background-position: -1651px -1px;
+}
+
+.shaman-Spell_Nature_HealingTouch {
+    width: 64px;
+    height: 64px;
+    background-position: -1717px -1px;
+}
+
+.shaman-Spell_Nature_HealingWaveGreater {
+    width: 64px;
+    height: 64px;
+    background-position: -1783px -1px;
+}
+
+.shaman-Spell_Nature_HealingWaveLesser {
+    width: 64px;
+    height: 64px;
+    background-position: -1849px -1px;
+}
+
+.shaman-Spell_Nature_HealingWay {
+    width: 64px;
+    height: 64px;
+    background-position: -1915px -1px;
+}
+
+.shaman-Spell_Nature_LightningOverload {
+    width: 64px;
+    height: 64px;
+    background-position: -1981px -1px;
+}
+
+.shaman-Spell_Nature_LightningShield {
+    width: 64px;
+    height: 64px;
+    background-position: -2047px -1px;
+}
+
+.shaman-Spell_Nature_ManaRegenTotem {
+    width: 64px;
+    height: 64px;
+    background-position: -2113px -1px;
+}
+
+.shaman-Spell_Nature_MentalQuickness {
+    width: 64px;
+    height: 64px;
+    background-position: -2179px -1px;
+}
+
+.shaman-Spell_Nature_MirrorImage {
+    width: 64px;
+    height: 64px;
+    background-position: -2245px -1px;
+}
+
+.shaman-Spell_Nature_MoonGlow {
+    width: 64px;
+    height: 64px;
+    background-position: -2311px -1px;
+}
+
+.shaman-Spell_Nature_NatureBlessing {
+    width: 64px;
+    height: 64px;
+    background-position: -2377px -1px;
+}
+
+.shaman-Spell_Nature_NatureGuardian {
+    width: 64px;
+    height: 64px;
+    background-position: -2443px -1px;
+}
+
+.shaman-Spell_Nature_NullWard {
+    width: 64px;
+    height: 64px;
+    background-position: -2509px -1px;
+}
+
+.shaman-Spell_Nature_RavenForm {
+    width: 64px;
+    height: 64px;
+    background-position: -2575px -1px;
+}
+
+.shaman-Spell_Nature_Reincarnation {
+    width: 64px;
+    height: 64px;
+    background-position: -2641px -1px;
+}
+
+.shaman-Spell_Nature_ShamanRage {
+    width: 64px;
+    height: 64px;
+    background-position: -2707px -1px;
+}
+
+.shaman-Spell_Nature_SkinofEarth {
+    width: 64px;
+    height: 64px;
+    background-position: -2773px -1px;
+}
+
+.shaman-Spell_Nature_SpiritArmor {
+    width: 64px;
+    height: 64px;
+    background-position: -2839px -1px;
+}
+
+.shaman-Spell_Nature_SpiritWolf {
+    width: 64px;
+    height: 64px;
+    background-position: -2905px -1px;
+}
+
+.shaman-Spell_Nature_StoneClawTotem {
+    width: 64px;
+    height: 64px;
+    background-position: -2971px -1px;
+}
+
+.shaman-Spell_Nature_StoneSkinTotem {
+    width: 64px;
+    height: 64px;
+    background-position: -3037px -1px;
+}
+
+.shaman-Spell_Nature_StormReach {
+    width: 64px;
+    height: 64px;
+    background-position: -3103px -1px;
+}
+
+.shaman-Spell_Nature_Tranquility {
+    width: 64px;
+    height: 64px;
+    background-position: -3169px -1px;
+}
+
+.shaman-Spell_Nature_UndyingStrength {
+    width: 64px;
+    height: 64px;
+    background-position: -3235px -1px;
+}
+
+.shaman-Spell_Nature_UnleashedRage {
+    width: 64px;
+    height: 64px;
+    background-position: -3301px -1px;
+}
+
+.shaman-Spell_Nature_UnrelentingStorm {
+    width: 64px;
+    height: 64px;
+    background-position: -3367px -1px;
+}
+
+.shaman-Spell_Nature_WispHeal {
+    width: 64px;
+    height: 64px;
+    background-position: -3433px -1px;
+}
+
+.shaman-Spell_Shadow_ManaBurn {
+    width: 64px;
+    height: 64px;
+    background-position: -3499px -1px;
+}
+
+.shaman-Spell_Shadow_SoulLeech_2 {
+    width: 64px;
+    height: 64px;
+    background-position: -3565px -1px;
+}

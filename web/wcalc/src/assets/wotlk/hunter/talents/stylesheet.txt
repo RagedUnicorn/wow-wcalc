@@ -1,0 +1,485 @@
+.hunter {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.hunter-ability_bullrush {
+    width: 42px;
+    height: 42px;
+    background-position: -1px -1px;
+}
+
+.hunter-ability_devour {
+    width: 42px;
+    height: 42px;
+    background-position: -45px -1px;
+}
+
+.hunter-ability_druid_demoralizingroar {
+    width: 42px;
+    height: 42px;
+    background-position: -89px -1px;
+}
+
+.hunter-ability_druid_ferociousbite {
+    width: 42px;
+    height: 42px;
+    background-position: -133px -1px;
+}
+
+.hunter-ability_ensnare {
+    width: 42px;
+    height: 42px;
+    background-position: -177px -1px;
+}
+
+.hunter-ability_golemstormbolt {
+    width: 42px;
+    height: 42px;
+    background-position: -221px -1px;
+}
+
+.hunter-ability_hunter_animalhandler {
+    width: 42px;
+    height: 42px;
+    background-position: -265px -1px;
+}
+
+.hunter-ability_hunter_aspectmastery {
+    width: 42px;
+    height: 42px;
+    background-position: -309px -1px;
+}
+
+.hunter-ability_hunter_aspectofthemonkey {
+    width: 42px;
+    height: 42px;
+    background-position: -353px -1px;
+}
+
+.hunter-ability_hunter_assassinate {
+    width: 42px;
+    height: 42px;
+    background-position: -397px -1px;
+}
+
+.hunter-ability_hunter_beastmastery {
+    width: 42px;
+    height: 42px;
+    background-position: -441px -1px;
+}
+
+.hunter-ability_hunter_beastsoothe {
+    width: 42px;
+    height: 42px;
+    background-position: -485px -1px;
+}
+
+.hunter-ability_hunter_beastwithin {
+    width: 42px;
+    height: 42px;
+    background-position: -529px -1px;
+}
+
+.hunter-ability_hunter_catlikereflexes {
+    width: 42px;
+    height: 42px;
+    background-position: -573px -1px;
+}
+
+.hunter-ability_hunter_chimerashot2 {
+    width: 42px;
+    height: 42px;
+    background-position: -617px -1px;
+}
+
+.hunter-ability_hunter_cobrastrikes {
+    width: 42px;
+    height: 42px;
+    background-position: -661px -1px;
+}
+
+.hunter-ability_hunter_combatexperience {
+    width: 42px;
+    height: 42px;
+    background-position: -705px -1px;
+}
+
+.hunter-ability_hunter_explosiveshot {
+    width: 42px;
+    height: 42px;
+    background-position: -749px -1px;
+}
+
+.hunter-ability_hunter_ferociousinspiration {
+    width: 42px;
+    height: 42px;
+    background-position: -793px -1px;
+}
+
+.hunter-ability_hunter_focusedaim {
+    width: 42px;
+    height: 42px;
+    background-position: -837px -1px;
+}
+
+.hunter-ability_hunter_goforthethroat {
+    width: 42px;
+    height: 42px;
+    background-position: -881px -1px;
+}
+
+.hunter-ability_hunter_huntervswild {
+    width: 42px;
+    height: 42px;
+    background-position: -925px -1px;
+}
+
+.hunter-ability_hunter_huntingparty {
+    width: 42px;
+    height: 42px;
+    background-position: -969px -1px;
+}
+
+.hunter-ability_hunter_improvedsteadyshot {
+    width: 42px;
+    height: 42px;
+    background-position: -1013px -1px;
+}
+
+.hunter-ability_hunter_improvedtracking {
+    width: 42px;
+    height: 42px;
+    background-position: -1057px -1px;
+}
+
+.hunter-ability_hunter_invigeration {
+    width: 42px;
+    height: 42px;
+    background-position: -1101px -1px;
+}
+
+.hunter-ability_hunter_lockandload {
+    width: 42px;
+    height: 42px;
+    background-position: -1145px -1px;
+}
+
+.hunter-ability_hunter_longevity {
+    width: 42px;
+    height: 42px;
+    background-position: -1189px -1px;
+}
+
+.hunter-ability_hunter_longshots {
+    width: 42px;
+    height: 42px;
+    background-position: -1233px -1px;
+}
+
+.hunter-ability_hunter_mastermarksman {
+    width: 42px;
+    height: 42px;
+    background-position: -1277px -1px;
+}
+
+.hunter-ability_hunter_mastertactitian {
+    width: 42px;
+    height: 42px;
+    background-position: -1321px -1px;
+}
+
+.hunter-ability_hunter_mendpet {
+    width: 42px;
+    height: 42px;
+    background-position: -1365px -1px;
+}
+
+.hunter-ability_hunter_piercingshots {
+    width: 42px;
+    height: 42px;
+    background-position: -1409px -1px;
+}
+
+.hunter-ability_hunter_pointofnoescape {
+    width: 42px;
+    height: 42px;
+    background-position: -1453px -1px;
+}
+
+.hunter-ability_hunter_potentvenom {
+    width: 42px;
+    height: 42px;
+    background-position: -1497px -1px;
+}
+
+.hunter-ability_hunter_quickshot {
+    width: 42px;
+    height: 42px;
+    background-position: -1541px -1px;
+}
+
+.hunter-ability_hunter_rapidkilling {
+    width: 42px;
+    height: 42px;
+    background-position: -1585px -1px;
+}
+
+.hunter-ability_hunter_rapidregeneration {
+    width: 42px;
+    height: 42px;
+    background-position: -1629px -1px;
+}
+
+.hunter-ability_hunter_readiness {
+    width: 42px;
+    height: 42px;
+    background-position: -1673px -1px;
+}
+
+.hunter-ability_hunter_resourcefulness {
+    width: 42px;
+    height: 42px;
+    background-position: -1717px -1px;
+}
+
+.hunter-ability_hunter_separationanxiety {
+    width: 42px;
+    height: 42px;
+    background-position: -1761px -1px;
+}
+
+.hunter-ability_hunter_serpentswiftness {
+    width: 42px;
+    height: 42px;
+    background-position: -1805px -1px;
+}
+
+.hunter-ability_hunter_silenthunter {
+    width: 42px;
+    height: 42px;
+    background-position: -1849px -1px;
+}
+
+.hunter-ability_hunter_snipershot {
+    width: 42px;
+    height: 42px;
+    background-position: -1893px -1px;
+}
+
+.hunter-ability_hunter_survivalinstincts {
+    width: 42px;
+    height: 42px;
+    background-position: -1937px -1px;
+}
+
+.hunter-ability_hunter_thrillofthehunt {
+    width: 42px;
+    height: 42px;
+    background-position: -1981px -1px;
+}
+
+.hunter-ability_hunter_wildquiver {
+    width: 42px;
+    height: 42px;
+    background-position: -2025px -1px;
+}
+
+.hunter-ability_hunter_zenarchery {
+    width: 42px;
+    height: 42px;
+    background-position: -2069px -1px;
+}
+
+.hunter-ability_impalingbolt {
+    width: 42px;
+    height: 42px;
+    background-position: -2113px -1px;
+}
+
+.hunter-ability_kick {
+    width: 42px;
+    height: 42px;
+    background-position: -2157px -1px;
+}
+
+.hunter-ability_mount_jungletiger {
+    width: 42px;
+    height: 42px;
+    background-position: -2201px -1px;
+}
+
+.hunter-ability_parry {
+    width: 42px;
+    height: 42px;
+    background-position: -2245px -1px;
+}
+
+.hunter-ability_piercedamage {
+    width: 42px;
+    height: 42px;
+    background-position: -2289px -1px;
+}
+
+.hunter-ability_racial_bloodrage {
+    width: 42px;
+    height: 42px;
+    background-position: -2333px -1px;
+}
+
+.hunter-ability_rogue_feigndeath {
+    width: 42px;
+    height: 42px;
+    background-position: -2377px -1px;
+}
+
+.hunter-ability_rogue_findweakness {
+    width: 42px;
+    height: 42px;
+    background-position: -2421px -1px;
+}
+
+.hunter-ability_searingarrow {
+    width: 42px;
+    height: 42px;
+    background-position: -2465px -1px;
+}
+
+.hunter-ability_theblackarrow {
+    width: 42px;
+    height: 42px;
+    background-position: -2509px -1px;
+}
+
+.hunter-ability_townwatch {
+    width: 42px;
+    height: 42px;
+    background-position: -2553px -1px;
+}
+
+.hunter-ability_trueshot {
+    width: 42px;
+    height: 42px;
+    background-position: -2597px -1px;
+}
+
+.hunter-ability_upgrademoonglaive {
+    width: 42px;
+    height: 42px;
+    background-position: -2641px -1px;
+}
+
+.hunter-ability_warrior_challange {
+    width: 42px;
+    height: 42px;
+    background-position: -2685px -1px;
+}
+
+.hunter-inv_misc_bomb_05 {
+    width: 42px;
+    height: 42px;
+    background-position: -2729px -1px;
+}
+
+.hunter-inv_misc_monsterclaw_03 {
+    width: 42px;
+    height: 42px;
+    background-position: -2773px -1px;
+}
+
+.hunter-inv_misc_monsterclaw_04 {
+    width: 42px;
+    height: 42px;
+    background-position: -2817px -1px;
+}
+
+.hunter-inv_misc_pelt_bear_03 {
+    width: 42px;
+    height: 42px;
+    background-position: -2861px -1px;
+}
+
+.hunter-inv_spear_02 {
+    width: 42px;
+    height: 42px;
+    background-position: -2905px -1px;
+}
+
+.hunter-inv_spear_07 {
+    width: 42px;
+    height: 42px;
+    background-position: -2949px -1px;
+}
+
+.hunter-inv_weapon_rifle_06 {
+    width: 42px;
+    height: 42px;
+    background-position: -2993px -1px;
+}
+
+.hunter-spell_arcane_starfire {
+    width: 42px;
+    height: 42px;
+    background-position: -3037px -1px;
+}
+
+.hunter-spell_frost_stun {
+    width: 42px;
+    height: 42px;
+    background-position: -3081px -1px;
+}
+
+.hunter-spell_frost_wizardmark {
+    width: 42px;
+    height: 42px;
+    background-position: -3125px -1px;
+}
+
+.hunter-spell_holy_blessingofstamina {
+    width: 42px;
+    height: 42px;
+    background-position: -3169px -1px;
+}
+
+.hunter-spell_nature_abolishmagic {
+    width: 42px;
+    height: 42px;
+    background-position: -3213px -1px;
+}
+
+.hunter-spell_nature_invisibilty {
+    width: 42px;
+    height: 42px;
+    background-position: -3257px -1px;
+}
+
+.hunter-spell_nature_ravenform {
+    width: 42px;
+    height: 42px;
+    background-position: -3301px -1px;
+}
+
+.hunter-spell_nature_reincarnation {
+    width: 42px;
+    height: 42px;
+    background-position: -3345px -1px;
+}
+
+.hunter-spell_nature_stranglevines {
+    width: 42px;
+    height: 42px;
+    background-position: -3389px -1px;
+}
+
+.hunter-spell_shadow_painspike {
+    width: 42px;
+    height: 42px;
+    background-position: -3433px -1px;
+}
+
+.hunter-spell_shadow_twilight {
+    width: 42px;
+    height: 42px;
+    background-position: -3477px -1px;
+}

@@ -1,0 +1,23 @@
+.paladin {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.paladin-holy_resize {
+    width: 300px;
+    height: 702px;
+    background-position: -1px -1px;
+}
+
+.paladin-protection_resize {
+    width: 300px;
+    height: 702px;
+    background-position: -303px -1px;
+}
+
+.paladin-retribution_resize {
+    width: 300px;
+    height: 702px;
+    background-position: -605px -1px;
+}

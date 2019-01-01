@@ -1,0 +1,32 @@
+@import "../../sass/conf";
+
+.klassNavigation {
+  width: 900px;
+  margin: 10px 0;
+}
+
+.klassNavigation li {
+  list-style-type: none;
+  padding: 5px;
+  float: left;
+}
+
+.klassNavigation li i {
+  display: block;
+  float: left;
+}
+
+.klassNavigation li a {
+  font-size: 32px;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.class-icons {
+  background-image: url(#{$base-path}/class_icons/class_icons.png);
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  display: block;
+  float: left;
+}

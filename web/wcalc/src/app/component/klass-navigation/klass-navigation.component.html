@@ -1,0 +1,10 @@
+<nav *ngIf="klasses" class="klassNavigation clearfix">
+  <div class="nav-wrapper">
+    <ul>
+      <li *ngFor="let item of klasses">
+        <i class="class-icons {{item.name}}"></i>
+        <a routerLink="/{{gameVersion}}/{{item.name}}">{{item.name}}</a>
+      </li>
+    </ul>
+  </div>
+</nav>

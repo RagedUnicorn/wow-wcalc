@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:noNamespaceSchemaLocation="http://www.ehcache.org/ehcache.xsd"
+         name="wotlk_manager">
+
+  <diskStore path="java.io.tmpdir/wotlk_ehcache"/>
+
+  <defaultCache
+    maxEntriesLocalHeap="10000"
+    timeToIdleSeconds="120"
+    timeToLiveSeconds="120"
+    diskSpoolBufferSizeMB="30"
+    maxEntriesLocalDisk="10000000"
+    diskExpiryThreadIntervalSeconds="120"
+    memoryStoreEvictionPolicy="LRU"
+    statistics="true">
+    <persistence strategy="localTempSwap"/>
+  </defaultCache>
+
+  <cache
+    name="wcalc_cache"
+    maxEntriesLocalHeap="15000"
+    eternal="true"
+    statistics="true">
+    <persistence strategy="localTempSwap"/>
+  </cache>
+
+  <cache
+    name="org.hibernate.cache.internal.StandardQueryCache"
+    maxEntriesLocalHeap="5"
+    timeToLiveSeconds="120"
+    statistics="true">
+    <persistence strategy="localTempSwap"/>
+  </cache>
+
+  <cache
+    name="org.hibernate.cache.spi.UpdateTimestampsCache"
+    maxEntriesLocalHeap="5000"
+    eternal="true"
+    statistics="true">
+    <persistence strategy="localTempSwap"/>
+  </cache>
+</ehcache>

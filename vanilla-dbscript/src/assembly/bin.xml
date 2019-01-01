@@ -1,0 +1,20 @@
+<assembly>
+  <id>vanilla-dbscript</id>
+  <formats>
+    <format>tar.gz</format>
+  </formats>
+  <fileSets>
+    <fileSet>
+      <directory>src/main/resources</directory>
+      <outputDirectory>bin</outputDirectory>
+      <includes>
+        <include>schema.sql</include>
+        <include>data.sql</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+</assembly>
+
+
+
+

@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "id": "http://wow.ragedunicorn.com/wcalc-api/wcalc/schema.json",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "talentName",
+    "icon",
+    "tierPos",
+    "talentPos",
+    "maxPoints"
+  ],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "id": "/properties/id",
+      "title": "The Id Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    },
+    "talentName": {
+      "type": "string",
+      "id": "/properties/talentName",
+      "title": "The Talentname Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    "icon": {
+      "type": "string",
+      "id": "/properties/icon",
+      "title": "The Icon Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    "tierPos": {
+      "type": "integer",
+      "id": "/properties/tierPos",
+      "title": "The Tierpos Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    },
+    "talentPos": {
+      "type": "integer",
+      "id": "/properties/talentPos",
+      "title": "The Talentpos Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    },
+    "maxPoints": {
+      "type": "integer",
+      "id": "/properties/maxPoints",
+      "title": "The Maxpoints Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    },
+    "dependency": {
+      "type": "integer",
+      "id": "/properties/dependency",
+      "title": "The Dependency Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    }
+  }
+}

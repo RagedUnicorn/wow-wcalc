@@ -1,0 +1,23 @@
+.hunter {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.hunter-beastmastery_resize {
+    width: 300px;
+    height: 702px;
+    background-position: -1px -1px;
+}
+
+.hunter-marksmanship_resize {
+    width: 300px;
+    height: 702px;
+    background-position: -303px -1px;
+}
+
+.hunter-survival_resize {
+    width: 300px;
+    height: 702px;
+    background-position: -605px -1px;
+}

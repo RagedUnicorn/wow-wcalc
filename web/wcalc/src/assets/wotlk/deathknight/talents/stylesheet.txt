@@ -1,0 +1,521 @@
+.deathknight {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.deathknight-ability_backstab_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1px -1px;
+}
+
+.deathknight-ability_creature_cursed_02_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -45px -1px;
+}
+
+.deathknight-ability_creature_cursed_03_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -89px -1px;
+}
+
+.deathknight-ability_creature_disease_02_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -133px -1px;
+}
+
+.deathknight-ability_criticalstrike_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -177px -1px;
+}
+
+.deathknight-ability_dualwield_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -221px -1px;
+}
+
+.deathknight-ability_dualwieldspecialization_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -265px -1px;
+}
+
+.deathknight-ability_ghoulfrenzy_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -309px -1px;
+}
+
+.deathknight-ability_hunter_pet_bat_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -353px -1px;
+}
+
+.deathknight-ability_hunter_rapidkilling_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -397px -1px;
+}
+
+.deathknight-ability_rogue_bloodyeye_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -441px -1px;
+}
+
+.deathknight-ability_upgrademoonglaive_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -485px -1px;
+}
+
+.deathknight-ability_warrior_intensifyrage_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -529px -1px;
+}
+
+.deathknight-inv-sword_53_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -573px -1px;
+}
+
+.deathknight-inv_armor_helm_plate_naxxramas_raidwarrior_c_01_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -617px -1px;
+}
+
+.deathknight-inv_axe_68_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -661px -1px;
+}
+
+.deathknight-inv_chest_leather_13_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -705px -1px;
+}
+
+.deathknight-inv_chest_mail_04_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -749px -1px;
+}
+
+.deathknight-inv_shoulder_36_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -793px -1px;
+}
+
+.deathknight-inv_staff_15_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -837px -1px;
+}
+
+.deathknight-inv_sword_07_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -881px -1px;
+}
+
+.deathknight-inv_sword_112_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -925px -1px;
+}
+
+.deathknight-inv_sword_122_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -969px -1px;
+}
+
+.deathknight-inv_sword_62_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1013px -1px;
+}
+
+.deathknight-inv_sword_68_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1057px -1px;
+}
+
+.deathknight-inv_weapon_halberd14_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1101px -1px;
+}
+
+.deathknight-inv_weapon_hand_18_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1145px -1px;
+}
+
+.deathknight-inv_weapon_shortblade_40_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1189px -1px;
+}
+
+.deathknight-inv_weapon_shortblade_60_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1233px -1px;
+}
+
+.deathknight-inv_weapon_shortblade_79_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1277px -1px;
+}
+
+.deathknight-spell_arcane_arcane01_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1321px -1px;
+}
+
+.deathknight-spell_deathknight_antimagiczone_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1365px -1px;
+}
+
+.deathknight-spell_deathknight_armyofthedead_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1409px -1px;
+}
+
+.deathknight-spell_deathknight_bladedarmor_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1453px -1px;
+}
+
+.deathknight-spell_deathknight_bloodpresence_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1497px -1px;
+}
+
+.deathknight-spell_deathknight_butcher2_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1541px -1px;
+}
+
+.deathknight-spell_deathknight_classicon_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1585px -1px;
+}
+
+.deathknight-spell_deathknight_darkconviction_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1629px -1px;
+}
+
+.deathknight-spell_deathknight_deathstrike_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1673px -1px;
+}
+
+.deathknight-spell_deathknight_empowerruneblade2_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1717px -1px;
+}
+
+.deathknight-spell_deathknight_frostpresence_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1761px -1px;
+}
+
+.deathknight-spell_deathknight_gnaw_ghoul_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1805px -1px;
+}
+
+.deathknight-spell_deathknight_icetouch_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1849px -1px;
+}
+
+.deathknight-spell_deathknight_icytalons_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1893px -1px;
+}
+
+.deathknight-spell_deathknight_plaguestrike_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1937px -1px;
+}
+
+.deathknight-spell_deathknight_runetap_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -1981px -1px;
+}
+
+.deathknight-spell_deathknight_scourgestrike_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2025px -1px;
+}
+
+.deathknight-spell_deathknight_spelldeflection_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2069px -1px;
+}
+
+.deathknight-spell_deathknight_strangulate_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2113px -1px;
+}
+
+.deathknight-spell_deathknight_subversion_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2157px -1px;
+}
+
+.deathknight-spell_deathknight_summondeathcharger_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2201px -1px;
+}
+
+.deathknight-spell_deathknight_unholypresence_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2245px -1px;
+}
+
+.deathknight-spell_deathknight_vendetta_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2289px -1px;
+}
+
+.deathknight-spell_fire_elementaldevastation_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2333px -1px;
+}
+
+.deathknight-spell_frost_arcticwinds_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2377px -1px;
+}
+
+.deathknight-spell_frost_freezingbreath_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2421px -1px;
+}
+
+.deathknight-spell_frost_frostshock_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2465px -1px;
+}
+
+.deathknight-spell_frost_manarecharge_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2509px -1px;
+}
+
+.deathknight-spell_frost_wisp_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2553px -1px;
+}
+
+.deathknight-spell_holy_devotion_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2597px -1px;
+}
+
+.deathknight-spell_misc_warsongfocus_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2641px -1px;
+}
+
+.deathknight-spell_nature_mirrorimage_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2685px -1px;
+}
+
+.deathknight-spell_nature_nullifydisease_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2729px -1px;
+}
+
+.deathknight-spell_nature_reincarnation_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2773px -1px;
+}
+
+.deathknight-spell_nature_removedisease_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2817px -1px;
+}
+
+.deathknight-spell_nature_tranquility_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2861px -1px;
+}
+
+.deathknight-spell_shadow_animatedead_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2905px -1px;
+}
+
+.deathknight-spell_shadow_antimagicshell_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2949px -1px;
+}
+
+.deathknight-spell_shadow_burningspirit_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -2993px -1px;
+}
+
+.deathknight-spell_shadow_callofbone_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -3037px -1px;
+}
+
+.deathknight-spell_shadow_contagion_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -3081px -1px;
+}
+
+.deathknight-spell_shadow_darkritual_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -3125px -1px;
+}
+
+.deathknight-spell_shadow_deathanddecay_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -3169px -1px;
+}
+
+.deathknight-spell_shadow_lifedrain_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -3213px -1px;
+}
+
+.deathknight-spell_shadow_painspike_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -3257px -1px;
+}
+
+.deathknight-spell_shadow_plaguecloud_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -3301px -1px;
+}
+
+.deathknight-spell_shadow_raisedead_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -3345px -1px;
+}
+
+.deathknight-spell_shadow_shadesofdarkness_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -3389px -1px;
+}
+
+.deathknight-spell_shadow_shadetruesight_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -3433px -1px;
+}
+
+.deathknight-spell_shadow_shadowandflame_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -3477px -1px;
+}
+
+.deathknight-spell_shadow_shadowfiend_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -3521px -1px;
+}
+
+.deathknight-spell_shadow_shadowwordpain_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -3565px -1px;
+}
+
+.deathknight-spell_shadow_soulleech_2_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -3609px -1px;
+}
+
+.deathknight-spell_shadow_soulleech_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -3653px -1px;
+}
+
+.deathknight-spell_shadow_twilight_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -3697px -1px;
+}
+
+.deathknight-spell_shadow_unholyfrenzy_resize {
+    width: 42px;
+    height: 42px;
+    background-position: -3741px -1px;
+}

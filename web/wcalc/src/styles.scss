@@ -1,0 +1,45 @@
+@debug "Building sass components";
+
+@import "app/sass/conf";
+@import "app/sass/reset";
+@import "app/sass/mixins/tree-mixin";
+@import "app/sass/mixins/talent-mixin";
+@import "app/sass/mixins/class_mixin";
+@import "app/sass/mixins/dependency_mixin";
+@import "app/sass/class_icons";
+@import "app/sass/version/wotlk/classes";
+@import "app/sass/components/dependency";
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background: #673AB7;
+}
+
+.main-container {
+  width: 100%;
+  text-align: center;
+}
+
+.content-container {
+  display: inline-block;
+  background: #FFF;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.tier {
+  display: grid;
+  grid-template-columns: repeat(4, 41px); // fixed from 42 to 41 to make it fit TODO
+  grid-column-gap: 36px;
+  margin-bottom: 22px;
+}
+
+
+
+

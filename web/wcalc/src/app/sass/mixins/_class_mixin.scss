@@ -1,0 +1,12 @@
+/**
+ * TODO documentation
+ */
+@mixin generate-class-icon-background-position($class-name, $pos-x, $pos-y: -1px) {
+  @debug "class-mixin: Generating class icon background position for: #{$class-name}";
+
+  .klassNavigation .#{$class-name} {
+    background: {
+      position: #{$pos-x} #{$pos-y};
+    }
+  }
+}

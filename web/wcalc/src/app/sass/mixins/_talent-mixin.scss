@@ -1,0 +1,57 @@
+@import "../conf";
+
+/**
+ * generates a rule to select the background image(a sprite) for the talents
+ * by a specified class
+ * Note: this should be called once for each class
+ */
+@mixin generate-talent-background($version-name, $class-name) {
+  $talent-base-path: map-get($class-paths, $class-name);
+
+  @if not $talent-base-path {
+    @warn "talent-mixin:: Failed to retrieve the class-path while generating a talent background";
+  }
+
+  @debug "talent-mixin:: Generating talent base background for: #{$class-name}";
+
+  .#{$class-name} {
+    .talent {
+      background: {
+        image: url(#{$base-path}/#{$version-name}/#{$class-name}/#{$talent-path}/#{$talent_pattern});
+        repeat: no-repeat;
+      }
+      width: 42px;
+      height: 42px;
+      border-radius: 5px;
+    }
+  }
+}
+
+/**
+ * generates the position of the background sprite for each talent
+ * a rule for the active talent and also for the inactive talent is generated
+ * Note: this should be called once for each talent
+ */
+@mixin generate-talent-background-position($version-name, $class-name, $talent-name, $pos-x, $pos-y: -1px) {
+  @debug "talent-mixin:: Generating talent background for: #{$talent-name}";
+
+  .#{$class-name} {
+    .talent.#{$talent-name} {
+      background-position: $pos-x $pos-y;
+    }
+  }
+}
+
+@mixin generate-talent-wrapper($version-name, $color, $posX, $posY) {
+  background: {
+    image: url(#{$base-path}/#{$version-name}/misc/#{$symbols_spritesheet});
+    repeat: no-repeat;
+    position: #{$posX} #{$posY};
+  }
+  position: relative;
+  top: -1px;
+  width: 58px;
+  height: 53px;
+  padding: 2px 0 0 2px;
+  color: $color;
+}

@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "id": "http://wow.ragedunicorn.com/wcalc-api/wcalc/schema.json",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "treeName",
+    "treePos",
+    "talents"
+  ],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "id": "/properties/id",
+      "title": "The Id Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    },
+    "treeName": {
+      "type": "string",
+      "id": "/properties/treeName",
+      "title": "The Treename Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    "treePos": {
+      "type": "integer",
+      "id": "/properties/treePos",
+      "title": "The Treepos Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    },
+    "talents": {
+        "$ref": "file:src/test/resources/schemas/talents_full_schema.json"
+    },
+    "dependencies": {
+      "$ref": "file:src/test/resources/schemas/dependencies_schema.json"
+    }
+  }
+}

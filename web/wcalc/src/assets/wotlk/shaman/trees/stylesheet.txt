@@ -1,0 +1,23 @@
+.shaman {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.shaman-elemental_resize {
+    width: 300px;
+    height: 702px;
+    background-position: -1px -1px;
+}
+
+.shaman-enhancement_resize {
+    width: 300px;
+    height: 702px;
+    background-position: -303px -1px;
+}
+
+.shaman-restoration_resize {
+    width: 300px;
+    height: 702px;
+    background-position: -605px -1px;
+}

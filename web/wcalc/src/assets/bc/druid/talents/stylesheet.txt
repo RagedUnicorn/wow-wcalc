@@ -1,0 +1,329 @@
+.druid {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.druid-Ability_Ambush {
+    width: 64px;
+    height: 64px;
+    background-position: -1px -1px;
+}
+
+.druid-Ability_Druid_BalanceofPower {
+    width: 64px;
+    height: 64px;
+    background-position: -67px -1px;
+}
+
+.druid-Ability_Druid_Bash {
+    width: 64px;
+    height: 64px;
+    background-position: -133px -1px;
+}
+
+.druid-Ability_Druid_Dreamstate {
+    width: 64px;
+    height: 64px;
+    background-position: -199px -1px;
+}
+
+.druid-Ability_Druid_EmpoweredRejuvination {
+    width: 64px;
+    height: 64px;
+    background-position: -265px -1px;
+}
+
+.druid-Ability_Druid_EmpoweredTouch {
+    width: 64px;
+    height: 64px;
+    background-position: -331px -1px;
+}
+
+.druid-Ability_Druid_Enrage {
+    width: 64px;
+    height: 64px;
+    background-position: -397px -1px;
+}
+
+.druid-Ability_Druid_ForceofNature {
+    width: 64px;
+    height: 64px;
+    background-position: -463px -1px;
+}
+
+.druid-Ability_Druid_HealingInstincts {
+    width: 64px;
+    height: 64px;
+    background-position: -529px -1px;
+}
+
+.druid-Ability_Druid_LunarGuidance {
+    width: 64px;
+    height: 64px;
+    background-position: -595px -1px;
+}
+
+.druid-Ability_Druid_Mangle2 {
+    width: 64px;
+    height: 64px;
+    background-position: -661px -1px;
+}
+
+.druid-Ability_Druid_NaturalPerfection {
+    width: 64px;
+    height: 64px;
+    background-position: -727px -1px;
+}
+
+.druid-Ability_Druid_PredatoryInstincts {
+    width: 64px;
+    height: 64px;
+    background-position: -793px -1px;
+}
+
+.druid-Ability_Druid_PrimalTenacity {
+    width: 64px;
+    height: 64px;
+    background-position: -859px -1px;
+}
+
+.druid-Ability_Druid_Ravage {
+    width: 64px;
+    height: 64px;
+    background-position: -925px -1px;
+}
+
+.druid-Ability_Druid_TreeofLife {
+    width: 64px;
+    height: 64px;
+    background-position: -991px -1px;
+}
+
+.druid-Ability_Druid_TwilightsWrath {
+    width: 64px;
+    height: 64px;
+    background-position: -1057px -1px;
+}
+
+.druid-Ability_EyeOfTheOwl {
+    width: 64px;
+    height: 64px;
+    background-position: -1123px -1px;
+}
+
+.druid-Ability_Hunter_Pet_Bear {
+    width: 64px;
+    height: 64px;
+    background-position: -1189px -1px;
+}
+
+.druid-Ability_Hunter_Pet_Cat {
+    width: 64px;
+    height: 64px;
+    background-position: -1255px -1px;
+}
+
+.druid-Ability_Racial_Cannibalize {
+    width: 64px;
+    height: 64px;
+    background-position: -1321px -1px;
+}
+
+.druid-INV_Misc_MonsterClaw_04 {
+    width: 64px;
+    height: 64px;
+    background-position: -1387px -1px;
+}
+
+.druid-INV_Misc_Pelt_Bear_03 {
+    width: 64px;
+    height: 64px;
+    background-position: -1453px -1px;
+}
+
+.druid-INV_Relics_IdolofRejuvenation {
+    width: 64px;
+    height: 64px;
+    background-position: -1519px -1px;
+}
+
+.druid-INV_Staff_01 {
+    width: 64px;
+    height: 64px;
+    background-position: -1585px -1px;
+}
+
+.druid-Spell_Arcane_StarFire {
+    width: 64px;
+    height: 64px;
+    background-position: -1651px -1px;
+}
+
+.druid-Spell_Frost_WindWalkOn {
+    width: 64px;
+    height: 64px;
+    background-position: -1717px -1px;
+}
+
+.druid-Spell_Holy_BlessingOfAgility {
+    width: 64px;
+    height: 64px;
+    background-position: -1783px -1px;
+}
+
+.druid-Spell_Holy_ElunesGrace {
+    width: 64px;
+    height: 64px;
+    background-position: -1849px -1px;
+}
+
+.druid-Spell_Nature_CrystalBall {
+    width: 64px;
+    height: 64px;
+    background-position: -1915px -1px;
+}
+
+.druid-Spell_Nature_FaerieFire {
+    width: 64px;
+    height: 64px;
+    background-position: -1981px -1px;
+}
+
+.druid-Spell_Nature_ForceOfNature {
+    width: 64px;
+    height: 64px;
+    background-position: -2047px -1px;
+}
+
+.druid-Spell_Nature_GiftoftheWaterSpirit {
+    width: 64px;
+    height: 64px;
+    background-position: -2113px -1px;
+}
+
+.druid-Spell_Nature_HealingTouch {
+    width: 64px;
+    height: 64px;
+    background-position: -2179px -1px;
+}
+
+.druid-Spell_Nature_HealingWaveGreater {
+    width: 64px;
+    height: 64px;
+    background-position: -2245px -1px;
+}
+
+.druid-Spell_Nature_InsectSwarm {
+    width: 64px;
+    height: 64px;
+    background-position: -2311px -1px;
+}
+
+.druid-Spell_Nature_MoonGlow {
+    width: 64px;
+    height: 64px;
+    background-position: -2377px -1px;
+}
+
+.druid-Spell_Nature_NatureTouchGrow {
+    width: 64px;
+    height: 64px;
+    background-position: -2443px -1px;
+}
+
+.druid-Spell_Nature_NaturesBlessing {
+    width: 64px;
+    height: 64px;
+    background-position: -2509px -1px;
+}
+
+.druid-Spell_Nature_NaturesWrath {
+    width: 64px;
+    height: 64px;
+    background-position: -2575px -1px;
+}
+
+.druid-Spell_Nature_ProtectionformNature {
+    width: 64px;
+    height: 64px;
+    background-position: -2641px -1px;
+}
+
+.druid-Spell_Nature_Purge {
+    width: 64px;
+    height: 64px;
+    background-position: -2707px -1px;
+}
+
+.druid-Spell_Nature_RavenForm {
+    width: 64px;
+    height: 64px;
+    background-position: -2773px -1px;
+}
+
+.druid-Spell_Nature_Rejuvenation {
+    width: 64px;
+    height: 64px;
+    background-position: -2839px -1px;
+}
+
+.druid-Spell_Nature_ResistNature {
+    width: 64px;
+    height: 64px;
+    background-position: -2905px -1px;
+}
+
+.druid-Spell_Nature_Sentinal {
+    width: 64px;
+    height: 64px;
+    background-position: -2971px -1px;
+}
+
+.druid-Spell_Nature_SpiritWolf {
+    width: 64px;
+    height: 64px;
+    background-position: -3037px -1px;
+}
+
+.druid-Spell_Nature_StarFall {
+    width: 64px;
+    height: 64px;
+    background-position: -3103px -1px;
+}
+
+.druid-Spell_Nature_StrangleVines {
+    width: 64px;
+    height: 64px;
+    background-position: -3169px -1px;
+}
+
+.druid-Spell_Nature_Thorns {
+    width: 64px;
+    height: 64px;
+    background-position: -3235px -1px;
+}
+
+.druid-Spell_Nature_Tranquility {
+    width: 64px;
+    height: 64px;
+    background-position: -3301px -1px;
+}
+
+.druid-Spell_Nature_UnyeildingStamina {
+    width: 64px;
+    height: 64px;
+    background-position: -3367px -1px;
+}
+
+.druid-Spell_Nature_WispSplode {
+    width: 64px;
+    height: 64px;
+    background-position: -3433px -1px;
+}
+
+.druid-Spell_Shadow_VampiricAura {
+    width: 64px;
+    height: 64px;
+    background-position: -3499px -1px;
+}

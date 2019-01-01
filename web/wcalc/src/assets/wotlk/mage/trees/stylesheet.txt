@@ -1,0 +1,23 @@
+.mage {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.mage-arcane_resize {
+    width: 300px;
+    height: 702px;
+    background-position: -1px -1px;
+}
+
+.mage-fire_resize {
+    width: 300px;
+    height: 702px;
+    background-position: -303px -1px;
+}
+
+.mage-frost_resize {
+    width: 300px;
+    height: 702px;
+    background-position: -605px -1px;
+}

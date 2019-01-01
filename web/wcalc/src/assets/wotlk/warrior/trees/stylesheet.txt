@@ -1,0 +1,23 @@
+.warrior {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.warrior-arms_resize {
+    width: 300px;
+    height: 702px;
+    background-position: -1px -1px;
+}
+
+.warrior-fury_resize {
+    width: 300px;
+    height: 702px;
+    background-position: -303px -1px;
+}
+
+.warrior-protection_resize {
+    width: 300px;
+    height: 702px;
+    background-position: -605px -1px;
+}

@@ -1,0 +1,8 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "id": "http://wow.ragedunicorn.com/wcalc-api/wcalc/schema#",
+  "items": {
+    "$ref": "file:src/test/resources/schemas/dependency_schema.json"
+  }
+}

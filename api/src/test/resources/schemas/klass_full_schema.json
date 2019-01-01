@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "id": "http://wow.ragedunicorn.com/wcalc-api/wcalc/schema.json",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "klassName",
+    "treeList"
+  ],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "id": "/properties/id",
+      "title": "The Id Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    },
+    "klassName": {
+      "type": "string",
+      "id": "/properties/klassName",
+      "title": "The Klassname Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    "treeList": {
+      "$ref": "file:src/test/resources/schemas/trees_full_schema.json"
+    }
+  }
+}

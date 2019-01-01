@@ -1,0 +1,18 @@
+.symbols {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.symbols-arrow-horizontal {
+    width: 312px;
+    height: 42px;
+    background-position: -2px -2px;
+}
+
+.symbols-arrow-plain {
+    width: 240px;
+    height: 42px;
+    background-position: -318px -2px;
+}
+

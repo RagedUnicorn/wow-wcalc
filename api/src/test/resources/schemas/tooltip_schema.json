@@ -1,0 +1,55 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "id": "http://wow.ragedunicorn.com/wcalc-api/wcalc/schema.json",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "locale",
+    "rank1"
+  ],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "id": "/properties/id",
+      "title": "The Id Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": 0
+    },
+    "locale": {
+      "type": "string",
+      "id": "/properties/locale",
+      "title": "The Locale Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    "rank1": {
+      "type": "string",
+      "id": "/properties/rank1",
+      "title": "The Rank1 Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    "rank2": {
+      "type": "string",
+      "id": "/properties/rank2",
+      "title": "The Rank2 Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    "rank3": {
+      "type": "string",
+      "id": "/properties/rank3",
+      "title": "The Rank3 Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    },
+    "rank4": {
+      "type": "string",
+      "id": "/properties/rank4",
+      "title": "The Rank4 Schema.",
+      "description": "An explanation about the purpose of this instance.",
+      "default": ""
+    }
+  }
+}

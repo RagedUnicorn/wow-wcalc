@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <artifactId>vanilla-dbscript</artifactId>
+  <packaging>pom</packaging>
+  <version>1.0.0</version>
+  <name>vanilla-dbscript</name>
+  <description>Database script for Vanilla World of Warcraft API</description>
+
+  <parent>
+    <groupId>com.ragedunicorn.wcalc</groupId>
+    <artifactId>parent</artifactId>
+    <version>1.0.0</version>
+    <relativePath>../parent</relativePath>
+  </parent>
+
+  <properties>
+    <dbscript.version>${project.version}</dbscript.version>
+  </properties>
+
+  <profiles>
+    <profile>
+      <id>development</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <properties>
+        <dbscript.version>${project.version}-SNAPSHOT</dbscript.version>
+      </properties>
+    </profile>
+    <profile>
+      <id>release</id>
+      <properties>
+        <dbscript.version>${project.version}</dbscript.version>
+      </properties>
+    </profile>
+  </profiles>
+
+  <!-- TODO document this -->
+  <!-- mvn clean package or mvn clean package -Pdevelopment to create development package -->
+  <!-- mvn clean package -Prelease to create release package -->
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-assembly-plugin</artifactId>
+        <configuration>
+          <descriptor>src/assembly/bin.xml</descriptor>
+          <finalName>${dbscript.version}</finalName>
+        </configuration>
+        <executions>
+          <execution>
+            <phase>package</phase>
+            <goals>
+              <goal>single</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

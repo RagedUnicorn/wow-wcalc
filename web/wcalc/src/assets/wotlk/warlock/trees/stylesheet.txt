@@ -1,0 +1,23 @@
+.warlock {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.warlock-affliction_resize {
+    width: 300px;
+    height: 702px;
+    background-position: -1px -1px;
+}
+
+.warlock-demonology_resize {
+    width: 300px;
+    height: 702px;
+    background-position: -303px -1px;
+}
+
+.warlock-destruction_resize {
+    width: 300px;
+    height: 702px;
+    background-position: -605px -1px;
+}

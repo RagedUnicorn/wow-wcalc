@@ -1,0 +1,7 @@
+<div class="tree" [ngClass]="[className, tree.getTreeName()]">
+  <wcalc-tier *ngFor="let position of range"
+              class="tier tier{{position}}"
+              [talents]="getTalentsByTier(position)"
+              [dependencies]="getDependenciesByTier(position)">
+  </wcalc-tier>
+</div>

@@ -1,0 +1,40 @@
+version: '3.6'
+services:
+  wcalc_webservice:
+    image: ragedunicorn/tomcat:1.1.1-dev
+    depends_on:
+      - wcalc_database
+    networks:
+      - wcalc
+    ports:
+      - "8080:8080"
+      - "60333:60333"
+    environment:
+      - CATALINA_OPTS="-agentlib:jdwp=transport=dt_socket,address=60333,server=y,suspend=n"
+    stdin_open: true
+    tty: true
+    entrypoint: /docker-entrypoint.sh
+    labels:
+      com.ragedunicorn.tomcat.environment: "dev"
+      com.ragedunicorn.tomcat.description: "WoW Talentcalculator Apache tomcat"
+  wcalc_database:
+    image: ragedunicorn/mariadb:1.1.1-dev
+    volumes:
+      - mariadb_data:/var/lib/mysql
+    networks:
+      - wcalc
+    ports:
+      - "3306:3306"
+    expose:
+      - "3306"
+    stdin_open: true
+    tty: true
+    entrypoint: /docker-entrypoint.sh
+    labels:
+      com.ragedunicorn.mariadb.environment: "dev"
+      com.ragedunicorn.mariadb.description: "WoW Talentcalculator MariaDB"
+volumes:
+  mariadb_data: {}
+networks:
+  wcalc:
+    driver: bridge

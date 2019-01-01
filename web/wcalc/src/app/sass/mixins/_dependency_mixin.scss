@@ -1,0 +1,16 @@
+@import "../conf";
+
+@mixin generate-dependency($version-name, $posX, $posY, $startX: '', $startY: '', $zIndex: 1 ) {
+  background: {
+    image: url(#{$base-path}/#{$version-name}/misc/#{$symbols_spritesheet});
+    @if $startX != "" and $startY != "" {
+      position: #{$startX} #{$posX} #{$startY} #{$posY};
+    } @else {
+      position: #{$posX} #{$posY};
+    }
+    repeat: no-repeat;
+  }
+
+  position: absolute;
+  z-index: #{$zIndex};
+}

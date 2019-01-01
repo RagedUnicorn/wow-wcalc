@@ -1,0 +1,23 @@
+.deathknight {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.deathknight-blood_fixed {
+    width: 300px;
+    height: 713px;
+    background-position: -1px -1px;
+}
+
+.deathknight-frost_fixed {
+    width: 300px;
+    height: 713px;
+    background-position: -303px -1px;
+}
+
+.deathknight-unholy_fixed {
+    width: 300px;
+    height: 713px;
+    background-position: -605px -1px;
+}

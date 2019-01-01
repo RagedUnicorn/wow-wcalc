@@ -1,0 +1,299 @@
+.warlock {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.warlock-inv_ammo_firetar {
+    width: 64px;
+    height: 64px;
+    background-position: -1px -1px;
+}
+
+.warlock-inv_misc_gem_sapphire_01 {
+    width: 64px;
+    height: 64px;
+    background-position: -67px -1px;
+}
+
+.warlock-inv_stone_04 {
+    width: 64px;
+    height: 64px;
+    background-position: -133px -1px;
+}
+
+.warlock-spell_fire_fire {
+    width: 64px;
+    height: 64px;
+    background-position: -199px -1px;
+}
+
+.warlock-spell_fire_fireball {
+    width: 64px;
+    height: 64px;
+    background-position: -265px -1px;
+}
+
+.warlock-spell_fire_firebolt {
+    width: 64px;
+    height: 64px;
+    background-position: -331px -1px;
+}
+
+.warlock-spell_fire_flameshock {
+    width: 64px;
+    height: 64px;
+    background-position: -397px -1px;
+}
+
+.warlock-spell_fire_immolation {
+    width: 64px;
+    height: 64px;
+    background-position: -463px -1px;
+}
+
+.warlock-spell_fire_lavaspawn {
+    width: 64px;
+    height: 64px;
+    background-position: -529px -1px;
+}
+
+.warlock-spell_fire_selfdestruct {
+    width: 64px;
+    height: 64px;
+    background-position: -595px -1px;
+}
+
+.warlock-spell_fire_soulburn {
+    width: 64px;
+    height: 64px;
+    background-position: -661px -1px;
+}
+
+.warlock-spell_fire_volcano {
+    width: 64px;
+    height: 64px;
+    background-position: -727px -1px;
+}
+
+.warlock-spell_fire_windsofwoe {
+    width: 64px;
+    height: 64px;
+    background-position: -793px -1px;
+}
+
+.warlock-spell_holy_magicalsentry {
+    width: 64px;
+    height: 64px;
+    background-position: -859px -1px;
+}
+
+.warlock-spell_nature_removecurse {
+    width: 64px;
+    height: 64px;
+    background-position: -925px -1px;
+}
+
+.warlock-spell_shadow_abominationexplosion {
+    width: 64px;
+    height: 64px;
+    background-position: -991px -1px;
+}
+
+.warlock-spell_shadow_antishadow {
+    width: 64px;
+    height: 64px;
+    background-position: -1057px -1px;
+}
+
+.warlock-spell_shadow_burningspirit {
+    width: 64px;
+    height: 64px;
+    background-position: -1123px -1px;
+}
+
+.warlock-spell_shadow_callofbone {
+    width: 64px;
+    height: 64px;
+    background-position: -1189px -1px;
+}
+
+.warlock-spell_shadow_contagion {
+    width: 64px;
+    height: 64px;
+    background-position: -1255px -1px;
+}
+
+.warlock-spell_shadow_corpseexplode {
+    width: 64px;
+    height: 64px;
+    background-position: -1321px -1px;
+}
+
+.warlock-spell_shadow_curse {
+    width: 64px;
+    height: 64px;
+    background-position: -1387px -1px;
+}
+
+.warlock-spell_shadow_curseofmannoroth {
+    width: 64px;
+    height: 64px;
+    background-position: -1453px -1px;
+}
+
+.warlock-spell_shadow_curseofsargeras {
+    width: 64px;
+    height: 64px;
+    background-position: -1519px -1px;
+}
+
+.warlock-spell_shadow_darkritual {
+    width: 64px;
+    height: 64px;
+    background-position: -1585px -1px;
+}
+
+.warlock-spell_shadow_deathpact {
+    width: 64px;
+    height: 64px;
+    background-position: -1651px -1px;
+}
+
+.warlock-spell_shadow_enslavedemon {
+    width: 64px;
+    height: 64px;
+    background-position: -1717px -1px;
+}
+
+.warlock-spell_shadow_fingerofdeath {
+    width: 64px;
+    height: 64px;
+    background-position: -1783px -1px;
+}
+
+.warlock-spell_shadow_gathershadows {
+    width: 64px;
+    height: 64px;
+    background-position: -1849px -1px;
+}
+
+.warlock-spell_shadow_grimward {
+    width: 64px;
+    height: 64px;
+    background-position: -1915px -1px;
+}
+
+.warlock-spell_shadow_haunting {
+    width: 64px;
+    height: 64px;
+    background-position: -1981px -1px;
+}
+
+.warlock-spell_shadow_impphaseshift {
+    width: 64px;
+    height: 64px;
+    background-position: -2047px -1px;
+}
+
+.warlock-spell_shadow_lifedrain {
+    width: 64px;
+    height: 64px;
+    background-position: -2113px -1px;
+}
+
+.warlock-spell_shadow_lifedrain02 {
+    width: 64px;
+    height: 64px;
+    background-position: -2179px -1px;
+}
+
+.warlock-spell_shadow_metamorphosis {
+    width: 64px;
+    height: 64px;
+    background-position: -2245px -1px;
+}
+
+.warlock-spell_shadow_psychicscream {
+    width: 64px;
+    height: 64px;
+    background-position: -2311px -1px;
+}
+
+.warlock-spell_shadow_requiem {
+    width: 64px;
+    height: 64px;
+    background-position: -2377px -1px;
+}
+
+.warlock-spell_shadow_scourgebuild {
+    width: 64px;
+    height: 64px;
+    background-position: -2443px -1px;
+}
+
+.warlock-spell_shadow_shadetruesight {
+    width: 64px;
+    height: 64px;
+    background-position: -2509px -1px;
+}
+
+.warlock-spell_shadow_shadowbolt {
+    width: 64px;
+    height: 64px;
+    background-position: -2575px -1px;
+}
+
+.warlock-spell_shadow_shadowpact {
+    width: 64px;
+    height: 64px;
+    background-position: -2641px -1px;
+}
+
+.warlock-spell_shadow_shadowworddominate {
+    width: 64px;
+    height: 64px;
+    background-position: -2707px -1px;
+}
+
+.warlock-spell_shadow_shadowwordpain {
+    width: 64px;
+    height: 64px;
+    background-position: -2773px -1px;
+}
+
+.warlock-spell_shadow_siphonmana {
+    width: 64px;
+    height: 64px;
+    background-position: -2839px -1px;
+}
+
+.warlock-spell_shadow_summonimp {
+    width: 64px;
+    height: 64px;
+    background-position: -2905px -1px;
+}
+
+.warlock-spell_shadow_summonsuccubus {
+    width: 64px;
+    height: 64px;
+    background-position: -2971px -1px;
+}
+
+.warlock-spell_shadow_summonvoidwalker {
+    width: 64px;
+    height: 64px;
+    background-position: -3037px -1px;
+}
+
+.warlock-spell_shadow_twilight {
+    width: 64px;
+    height: 64px;
+    background-position: -3103px -1px;
+}
+
+.warlock-spell_shadow_unsummonbuilding {
+    width: 64px;
+    height: 64px;
+    background-position: -3169px -1px;
+}

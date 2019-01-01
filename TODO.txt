@@ -1,0 +1,20 @@
+Example url:
+
+http://localhost:8080/wcalc-api/wcalc/wotlk/klass
+
+Remember to check tomcat plugin password that is used. Maybe you need to update or add an entry in your .m2 settings file
+
+
+
+Next steps todo:
+
+- Cleanup mvn setup
+- load and use properties file in api-backend
+- Create necessary basic intellij build configurations
+- Document api module
+- Document intellij build configurations in development md
+- Implement automatic database setup
+
+
+- Check state of web module
+- Update to angular 7

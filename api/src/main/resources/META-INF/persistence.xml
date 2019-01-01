@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+             version="2.0">
+
+  <persistence-unit name="com.ragedunicorn.wcalc.classic">
+    <description>World of Warcraft persistence unit</description>
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+    <class>com.ragedunicorn.wcalc.model.KlassEntity</class>
+    <class>com.ragedunicorn.wcalc.model.TreeEntity</class>
+    <class>com.ragedunicorn.wcalc.model.TalentEntity</class>
+    <class>com.ragedunicorn.wcalc.model.TooltipEntity</class>
+    <class>com.ragedunicorn.wcalc.model.DependencyEntity</class>
+    <shared-cache-mode>ENABLE_SELECTIVE</shared-cache-mode>
+    <properties>
+      <!-- jdbc -->
+      <property name="javax.persistence.jdbc.driver" value="org.mariadb.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mariadb://wcalc_database:3306/classic_data"/>
+      <property name="javax.persistence.jdbc.user" value="app"/>
+      <property name="javax.persistence.jdbc.password" value="app"/>
+
+      <!-- Hibernate properties -->
+      <property name="hibernate.dialect" value="org.hibernate.dialect.MariaDBDialect"/>
+      <property name="hibernate.hbm2ddl.auto" value="validate"/>
+      <property name="hibernate.show_sql" value="false"/>
+      <property name="hibernate.format_sql" value="false"/>
+      <property name="hibernate.generate_statistics" value="true"/>
+
+      <!-- Configuring Connection Pool -->
+      <property name="hibernate.c3p0.min_size" value="5"/>
+      <property name="hibernate.c3p0.max_size" value="20"/>
+      <property name="hibernate.c3p0.timeout" value="500"/>
+      <property name="hibernate.c3p0.max_statements" value="50"/>
+      <property name="hibernate.c3p0.idle_test_period" value="2000"/>
+      <property name="hibernate.c3p0.unreturnedConnectionTimeout" value="30" />
+      <property name="hibernate.c3p0.debugUnreturnedConnectionStackTraces" value="false" />
+
+      <!-- Eh-cache -->
+      <property name="hibernate.cache.use_second_level_cache" value="true"/>
+      <property name="hibernate.cache.use_query_cache" value="true"/>
+      <property name="hibernate.cache.provider_class" value="org.hibernate.cache.EhCacheProvider"/>
+      <property name="hibernate.cache.region.factory_class" value="org.hibernate.cache.ehcache.EhCacheRegionFactory"/>
+      <property name="net.sf.ehcache.configurationResourceName" value="/classic_ehcache.xml"/>
+    </properties>
+  </persistence-unit>
+
+  <persistence-unit name="com.ragedunicorn.wcalc.bc">
+    <description>Burning Crusade persistence unit</description>
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+    <class>com.ragedunicorn.wcalc.model.KlassEntity</class>
+    <class>com.ragedunicorn.wcalc.model.TreeEntity</class>
+    <class>com.ragedunicorn.wcalc.model.TalentEntity</class>
+    <class>com.ragedunicorn.wcalc.model.TooltipEntity</class>
+    <class>com.ragedunicorn.wcalc.model.DependencyEntity</class>
+    <shared-cache-mode>ENABLE_SELECTIVE</shared-cache-mode>
+    <properties>
+      <!-- jdbc -->
+      <property name="javax.persistence.jdbc.driver" value="org.mariadb.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mariadb://wcalc_database:3306/bc_data"/>
+      <property name="javax.persistence.jdbc.user" value="app"/>
+      <property name="javax.persistence.jdbc.password" value="app"/>
+
+      <!-- Hibernate properties -->
+      <property name="hibernate.dialect" value="org.hibernate.dialect.MariaDBDialect"/>
+      <property name="hibernate.hbm2ddl.auto" value="validate"/>
+      <property name="hibernate.show_sql" value="false"/>
+      <property name="hibernate.format_sql" value="false"/>
+      <property name="hibernate.generate_statistics" value="true"/>
+
+      <!-- Configuring Connection Pool -->
+      <property name="hibernate.c3p0.min_size" value="5"/>
+      <property name="hibernate.c3p0.max_size" value="20"/>
+      <property name="hibernate.c3p0.timeout" value="500"/>
+      <property name="hibernate.c3p0.max_statements" value="50"/>
+      <property name="hibernate.c3p0.idle_test_period" value="2000"/>
+      <property name="hibernate.c3p0.unreturnedConnectionTimeout" value="30" />
+      <property name="hibernate.c3p0.debugUnreturnedConnectionStackTraces" value="false" />
+
+      <!-- Eh-cache -->
+      <property name="hibernate.cache.use_second_level_cache" value="true"/>
+      <property name="hibernate.cache.use_query_cache" value="true"/>
+      <property name="hibernate.cache.provider_class" value="org.hibernate.cache.EhCacheProvider"/>
+      <property name="hibernate.cache.region.factory_class" value="org.hibernate.cache.ehcache.EhCacheRegionFactory"/>
+      <property name="net.sf.ehcache.configurationResourceName" value="/bc_ehcache.xml"/>
+    </properties>
+  </persistence-unit>
+
+  <persistence-unit name="com.ragedunicorn.wcalc.wotlk">
+    <description>Wrath of The Lich King persistence unit</description>
+    <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+    <class>com.ragedunicorn.wcalc.model.KlassEntity</class>
+    <class>com.ragedunicorn.wcalc.model.TreeEntity</class>
+    <class>com.ragedunicorn.wcalc.model.TalentEntity</class>
+    <class>com.ragedunicorn.wcalc.model.TooltipEntity</class>
+    <class>com.ragedunicorn.wcalc.model.DependencyEntity</class>
+    <shared-cache-mode>ENABLE_SELECTIVE</shared-cache-mode>
+    <properties>
+      <!-- jdbc -->
+      <property name="javax.persistence.jdbc.driver" value="org.mariadb.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mariadb://wcalc_database:3306/wotlk_data"/>
+      <property name="javax.persistence.jdbc.user" value="app"/>
+      <property name="javax.persistence.jdbc.password" value="app"/>
+
+      <!-- Hibernate properties -->
+      <property name="hibernate.dialect" value="org.hibernate.dialect.MariaDBDialect"/>
+      <property name="hibernate.hbm2ddl.auto" value="validate"/>
+      <property name="hibernate.show_sql" value="false"/>
+      <property name="hibernate.format_sql" value="false"/>
+      <property name="hibernate.generate_statistics" value="true"/>
+
+      <!-- Configuring Connection Pool -->
+      <property name="hibernate.c3p0.min_size" value="5"/>
+      <property name="hibernate.c3p0.max_size" value="20"/>
+      <property name="hibernate.c3p0.timeout" value="500"/>
+      <property name="hibernate.c3p0.max_statements" value="50"/>
+      <property name="hibernate.c3p0.idle_test_period" value="2000"/>
+      <property name="hibernate.c3p0.unreturnedConnectionTimeout" value="30" />
+      <property name="hibernate.c3p0.debugUnreturnedConnectionStackTraces" value="false" />
+
+      <!-- Eh-cache -->
+      <property name="hibernate.cache.use_second_level_cache" value="true"/>
+      <property name="hibernate.cache.use_query_cache" value="true"/>
+      <property name="hibernate.cache.provider_class" value="org.hibernate.cache.EhCacheProvider"/>
+      <property name="hibernate.cache.region.factory_class" value="org.hibernate.cache.ehcache.EhCacheRegionFactory"/>
+      <property name="net.sf.ehcache.configurationResourceName" value="/wotlk_ehcache.xml"/>
+    </properties>
+  </persistence-unit>
+</persistence>

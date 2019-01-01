@@ -1,0 +1,503 @@
+.warrior {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.warrior-ability_backstab {
+    width: 42px;
+    height: 42px;
+    background-position: -1px -1px;
+}
+
+.warrior-ability_dualwield {
+    width: 42px;
+    height: 42px;
+    background-position: -45px -1px;
+}
+
+.warrior-ability_ghoulfrenzy {
+    width: 42px;
+    height: 42px;
+    background-position: -89px -1px;
+}
+
+.warrior-ability_gouge {
+    width: 42px;
+    height: 42px;
+    background-position: -133px -1px;
+}
+
+.warrior-ability_heroicleap {
+    width: 42px;
+    height: 42px;
+    background-position: -177px -1px;
+}
+
+.warrior-ability_hunter_harass {
+    width: 42px;
+    height: 42px;
+    background-position: -221px -1px;
+}
+
+.warrior-ability_marksmanship {
+    width: 42px;
+    height: 42px;
+    background-position: -265px -1px;
+}
+
+.warrior-ability_parry {
+    width: 42px;
+    height: 42px;
+    background-position: -309px -1px;
+}
+
+.warrior-ability_racial_avatar {
+    width: 42px;
+    height: 42px;
+    background-position: -353px -1px;
+}
+
+.warrior-ability_racial_bloodrage {
+    width: 42px;
+    height: 42px;
+    background-position: -397px -1px;
+}
+
+.warrior-ability_rogue_ambush {
+    width: 42px;
+    height: 42px;
+    background-position: -441px -1px;
+}
+
+.warrior-ability_rogue_eviscerate {
+    width: 42px;
+    height: 42px;
+    background-position: -485px -1px;
+}
+
+.warrior-ability_rogue_hungerforblood {
+    width: 42px;
+    height: 42px;
+    background-position: -529px -1px;
+}
+
+.warrior-ability_rogue_slicedice {
+    width: 42px;
+    height: 42px;
+    background-position: -573px -1px;
+}
+
+.warrior-ability_rogue_sprint {
+    width: 42px;
+    height: 42px;
+    background-position: -617px -1px;
+}
+
+.warrior-ability_searingarrow {
+    width: 42px;
+    height: 42px;
+    background-position: -661px -1px;
+}
+
+.warrior-ability_shockwave {
+    width: 42px;
+    height: 42px;
+    background-position: -705px -1px;
+}
+
+.warrior-ability_thunderbolt {
+    width: 42px;
+    height: 42px;
+    background-position: -749px -1px;
+}
+
+.warrior-ability_thunderclap {
+    width: 42px;
+    height: 42px;
+    background-position: -793px -1px;
+}
+
+.warrior-ability_warrior_bladestorm {
+    width: 42px;
+    height: 42px;
+    background-position: -837px -1px;
+}
+
+.warrior-ability_warrior_bloodfrenzy {
+    width: 42px;
+    height: 42px;
+    background-position: -881px -1px;
+}
+
+.warrior-ability_warrior_bloodnova {
+    width: 42px;
+    height: 42px;
+    background-position: -925px -1px;
+}
+
+.warrior-ability_warrior_bloodsurge {
+    width: 42px;
+    height: 42px;
+    background-position: -969px -1px;
+}
+
+.warrior-ability_warrior_bullrush {
+    width: 42px;
+    height: 42px;
+    background-position: -1013px -1px;
+}
+
+.warrior-ability_warrior_charge {
+    width: 42px;
+    height: 42px;
+    background-position: -1057px -1px;
+}
+
+.warrior-ability_warrior_cleave {
+    width: 42px;
+    height: 42px;
+    background-position: -1101px -1px;
+}
+
+.warrior-ability_warrior_criticalblock {
+    width: 42px;
+    height: 42px;
+    background-position: -1145px -1px;
+}
+
+.warrior-ability_warrior_decisivestrike {
+    width: 42px;
+    height: 42px;
+    background-position: -1189px -1px;
+}
+
+.warrior-ability_warrior_defensivestance {
+    width: 42px;
+    height: 42px;
+    background-position: -1233px -1px;
+}
+
+.warrior-ability_warrior_disarm {
+    width: 42px;
+    height: 42px;
+    background-position: -1277px -1px;
+}
+
+.warrior-ability_warrior_endlessrage {
+    width: 42px;
+    height: 42px;
+    background-position: -1321px -1px;
+}
+
+.warrior-ability_warrior_focusedrage {
+    width: 42px;
+    height: 42px;
+    background-position: -1365px -1px;
+}
+
+.warrior-ability_warrior_furiousresolve {
+    width: 42px;
+    height: 42px;
+    background-position: -1409px -1px;
+}
+
+.warrior-ability_warrior_improveddisciplines {
+    width: 42px;
+    height: 42px;
+    background-position: -1453px -1px;
+}
+
+.warrior-ability_warrior_incite {
+    width: 42px;
+    height: 42px;
+    background-position: -1497px -1px;
+}
+
+.warrior-ability_warrior_intensifyrage {
+    width: 42px;
+    height: 42px;
+    background-position: -1541px -1px;
+}
+
+.warrior-ability_warrior_offensivestance {
+    width: 42px;
+    height: 42px;
+    background-position: -1585px -1px;
+}
+
+.warrior-ability_warrior_rampage {
+    width: 42px;
+    height: 42px;
+    background-position: -1629px -1px;
+}
+
+.warrior-ability_warrior_revenge {
+    width: 42px;
+    height: 42px;
+    background-position: -1673px -1px;
+}
+
+.warrior-ability_warrior_safeguard {
+    width: 42px;
+    height: 42px;
+    background-position: -1717px -1px;
+}
+
+.warrior-ability_warrior_savageblow {
+    width: 42px;
+    height: 42px;
+    background-position: -1761px -1px;
+}
+
+.warrior-ability_warrior_shieldbash {
+    width: 42px;
+    height: 42px;
+    background-position: -1805px -1px;
+}
+
+.warrior-ability_warrior_shieldmastery {
+    width: 42px;
+    height: 42px;
+    background-position: -1849px -1px;
+}
+
+.warrior-ability_warrior_shieldreflection {
+    width: 42px;
+    height: 42px;
+    background-position: -1893px -1px;
+}
+
+.warrior-ability_warrior_shieldwall {
+    width: 42px;
+    height: 42px;
+    background-position: -1937px -1px;
+}
+
+.warrior-ability_warrior_shockwave {
+    width: 42px;
+    height: 42px;
+    background-position: -1981px -1px;
+}
+
+.warrior-ability_warrior_sunder {
+    width: 42px;
+    height: 42px;
+    background-position: -2025px -1px;
+}
+
+.warrior-ability_warrior_swordandboard {
+    width: 42px;
+    height: 42px;
+    background-position: -2069px -1px;
+}
+
+.warrior-ability_warrior_titansgrip {
+    width: 42px;
+    height: 42px;
+    background-position: -2113px -1px;
+}
+
+.warrior-ability_warrior_trauma {
+    width: 42px;
+    height: 42px;
+    background-position: -2157px -1px;
+}
+
+.warrior-ability_warrior_unrelentingassault {
+    width: 42px;
+    height: 42px;
+    background-position: -2201px -1px;
+}
+
+.warrior-ability_warrior_vigilance {
+    width: 42px;
+    height: 42px;
+    background-position: -2245px -1px;
+}
+
+.warrior-ability_warrior_warbringer {
+    width: 42px;
+    height: 42px;
+    background-position: -2289px -1px;
+}
+
+.warrior-ability_warrior_warcry {
+    width: 42px;
+    height: 42px;
+    background-position: -2333px -1px;
+}
+
+.warrior-ability_warrior_weaponmastery {
+    width: 42px;
+    height: 42px;
+    background-position: -2377px -1px;
+}
+
+.warrior-ability_whirlwind {
+    width: 42px;
+    height: 42px;
+    background-position: -2421px -1px;
+}
+
+.warrior-inv_axe_06 {
+    width: 42px;
+    height: 42px;
+    background-position: -2465px -1px;
+}
+
+.warrior-inv_axe_09 {
+    width: 42px;
+    height: 42px;
+    background-position: -2509px -1px;
+}
+
+.warrior-inv_helmet_21 {
+    width: 42px;
+    height: 42px;
+    background-position: -2553px -1px;
+}
+
+.warrior-inv_mace_01 {
+    width: 42px;
+    height: 42px;
+    background-position: -2597px -1px;
+}
+
+.warrior-inv_shield_06 {
+    width: 42px;
+    height: 42px;
+    background-position: -2641px -1px;
+}
+
+.warrior-inv_shield_31 {
+    width: 42px;
+    height: 42px;
+    background-position: -2685px -1px;
+}
+
+.warrior-inv_shoulder_22 {
+    width: 42px;
+    height: 42px;
+    background-position: -2729px -1px;
+}
+
+.warrior-inv_sword_05 {
+    width: 42px;
+    height: 42px;
+    background-position: -2773px -1px;
+}
+
+.warrior-inv_sword_11 {
+    width: 42px;
+    height: 42px;
+    background-position: -2817px -1px;
+}
+
+.warrior-inv_sword_20 {
+    width: 42px;
+    height: 42px;
+    background-position: -2861px -1px;
+}
+
+.warrior-inv_sword_27 {
+    width: 42px;
+    height: 42px;
+    background-position: -2905px -1px;
+}
+
+.warrior-inv_sword_48 {
+    width: 42px;
+    height: 42px;
+    background-position: -2949px -1px;
+}
+
+.warrior-spell_holy_ashestoashes {
+    width: 42px;
+    height: 42px;
+    background-position: -2993px -1px;
+}
+
+.warrior-spell_holy_blessingofstamina {
+    width: 42px;
+    height: 42px;
+    background-position: -3037px -1px;
+}
+
+.warrior-spell_holy_devotion {
+    width: 42px;
+    height: 42px;
+    background-position: -3081px -1px;
+}
+
+.warrior-spell_magic_magearmor {
+    width: 42px;
+    height: 42px;
+    background-position: -3125px -1px;
+}
+
+.warrior-spell_nature_ancestralguardian {
+    width: 42px;
+    height: 42px;
+    background-position: -3169px -1px;
+}
+
+.warrior-spell_nature_bloodlust {
+    width: 42px;
+    height: 42px;
+    background-position: -3213px -1px;
+}
+
+.warrior-spell_nature_enchantarmor {
+    width: 42px;
+    height: 42px;
+    background-position: -3257px -1px;
+}
+
+.warrior-spell_nature_focusedmind {
+    width: 42px;
+    height: 42px;
+    background-position: -3301px -1px;
+}
+
+.warrior-spell_nature_mirrorimage {
+    width: 42px;
+    height: 42px;
+    background-position: -3345px -1px;
+}
+
+.warrior-spell_nature_purge {
+    width: 42px;
+    height: 42px;
+    background-position: -3389px -1px;
+}
+
+.warrior-spell_nature_stoneclawtotem {
+    width: 42px;
+    height: 42px;
+    background-position: -3433px -1px;
+}
+
+.warrior-spell_shadow_deathpact {
+    width: 42px;
+    height: 42px;
+    background-position: -3477px -1px;
+}
+
+.warrior-spell_shadow_deathscream {
+    width: 42px;
+    height: 42px;
+    background-position: -3521px -1px;
+}
+
+.warrior-spell_shadow_summonimp {
+    width: 42px;
+    height: 42px;
+    background-position: -3565px -1px;
+}
+
+.warrior-spell_shadow_unholyfrenzy {
+    width: 42px;
+    height: 42px;
+    background-position: -3609px -1px;
+}

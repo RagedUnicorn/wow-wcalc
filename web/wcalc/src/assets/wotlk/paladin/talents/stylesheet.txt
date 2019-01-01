@@ -1,0 +1,461 @@
+.paladin {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.paladin-ability_defend {
+    width: 42px;
+    height: 42px;
+    background-position: -1px -1px;
+}
+
+.paladin-ability_golemthunderclap {
+    width: 42px;
+    height: 42px;
+    background-position: -45px -1px;
+}
+
+.paladin-ability_paladin_artofwar {
+    width: 42px;
+    height: 42px;
+    background-position: -89px -1px;
+}
+
+.paladin-ability_paladin_beaconoflight {
+    width: 42px;
+    height: 42px;
+    background-position: -133px -1px;
+}
+
+.paladin-ability_paladin_blessedhands {
+    width: 42px;
+    height: 42px;
+    background-position: -177px -1px;
+}
+
+.paladin-ability_paladin_divinestorm {
+    width: 42px;
+    height: 42px;
+    background-position: -221px -1px;
+}
+
+.paladin-ability_paladin_enlightenedjudgements {
+    width: 42px;
+    height: 42px;
+    background-position: -265px -1px;
+}
+
+.paladin-ability_paladin_gaurdedbythelight {
+    width: 42px;
+    height: 42px;
+    background-position: -309px -1px;
+}
+
+.paladin-ability_paladin_hammeroftherighteous {
+    width: 42px;
+    height: 42px;
+    background-position: -353px -1px;
+}
+
+.paladin-ability_paladin_infusionoflight {
+    width: 42px;
+    height: 42px;
+    background-position: -397px -1px;
+}
+
+.paladin-ability_paladin_judgementofthepure {
+    width: 42px;
+    height: 42px;
+    background-position: -441px -1px;
+}
+
+.paladin-ability_paladin_judgementofthewise {
+    width: 42px;
+    height: 42px;
+    background-position: -485px -1px;
+}
+
+.paladin-ability_paladin_judgementsofthejust {
+    width: 42px;
+    height: 42px;
+    background-position: -529px -1px;
+}
+
+.paladin-ability_paladin_righteousvengeance {
+    width: 42px;
+    height: 42px;
+    background-position: -573px -1px;
+}
+
+.paladin-ability_paladin_sacredcleansing {
+    width: 42px;
+    height: 42px;
+    background-position: -617px -1px;
+}
+
+.paladin-ability_paladin_sanctifiedwrath {
+    width: 42px;
+    height: 42px;
+    background-position: -661px -1px;
+}
+
+.paladin-ability_paladin_sheathoflight {
+    width: 42px;
+    height: 42px;
+    background-position: -705px -1px;
+}
+
+.paladin-ability_paladin_shieldofthetemplar {
+    width: 42px;
+    height: 42px;
+    background-position: -749px -1px;
+}
+
+.paladin-ability_paladin_swiftretribution {
+    width: 42px;
+    height: 42px;
+    background-position: -793px -1px;
+}
+
+.paladin-ability_paladin_touchedbylight {
+    width: 42px;
+    height: 42px;
+    background-position: -837px -1px;
+}
+
+.paladin-ability_parry {
+    width: 42px;
+    height: 42px;
+    background-position: -881px -1px;
+}
+
+.paladin-ability_racial_avatar {
+    width: 42px;
+    height: 42px;
+    background-position: -925px -1px;
+}
+
+.paladin-ability_thunderbolt {
+    width: 42px;
+    height: 42px;
+    background-position: -969px -1px;
+}
+
+.paladin-ability_warrior_innerrage {
+    width: 42px;
+    height: 42px;
+    background-position: -1013px -1px;
+}
+
+.paladin-inv_hammer_04 {
+    width: 42px;
+    height: 42px;
+    background-position: -1057px -1px;
+}
+
+.paladin-inv_sword_20 {
+    width: 42px;
+    height: 42px;
+    background-position: -1101px -1px;
+}
+
+.paladin-spell_arcane_blink {
+    width: 42px;
+    height: 42px;
+    background-position: -1145px -1px;
+}
+
+.paladin-spell_frost_windwalkon {
+    width: 42px;
+    height: 42px;
+    background-position: -1189px -1px;
+}
+
+.paladin-spell_holy_ardentdefender {
+    width: 42px;
+    height: 42px;
+    background-position: -1233px -1px;
+}
+
+.paladin-spell_holy_auramastery {
+    width: 42px;
+    height: 42px;
+    background-position: -1277px -1px;
+}
+
+.paladin-spell_holy_avengersshield {
+    width: 42px;
+    height: 42px;
+    background-position: -1321px -1px;
+}
+
+.paladin-spell_holy_blessedlife {
+    width: 42px;
+    height: 42px;
+    background-position: -1365px -1px;
+}
+
+.paladin-spell_holy_blessingofprotection {
+    width: 42px;
+    height: 42px;
+    background-position: -1409px -1px;
+}
+
+.paladin-spell_holy_blessingofstrength {
+    width: 42px;
+    height: 42px;
+    background-position: -1453px -1px;
+}
+
+.paladin-spell_holy_blindingheal {
+    width: 42px;
+    height: 42px;
+    background-position: -1497px -1px;
+}
+
+.paladin-spell_holy_crusade {
+    width: 42px;
+    height: 42px;
+    background-position: -1541px -1px;
+}
+
+.paladin-spell_holy_crusaderstrike {
+    width: 42px;
+    height: 42px;
+    background-position: -1585px -1px;
+}
+
+.paladin-spell_holy_devotion {
+    width: 42px;
+    height: 42px;
+    background-position: -1629px -1px;
+}
+
+.paladin-spell_holy_devotionaura {
+    width: 42px;
+    height: 42px;
+    background-position: -1673px -1px;
+}
+
+.paladin-spell_holy_divineillumination {
+    width: 42px;
+    height: 42px;
+    background-position: -1717px -1px;
+}
+
+.paladin-spell_holy_divineintervention {
+    width: 42px;
+    height: 42px;
+    background-position: -1761px -1px;
+}
+
+.paladin-spell_holy_divinepurpose {
+    width: 42px;
+    height: 42px;
+    background-position: -1805px -1px;
+}
+
+.paladin-spell_holy_eyeforaneye {
+    width: 42px;
+    height: 42px;
+    background-position: -1849px -1px;
+}
+
+.paladin-spell_holy_fanaticism {
+    width: 42px;
+    height: 42px;
+    background-position: -1893px -1px;
+}
+
+.paladin-spell_holy_fistofjustice {
+    width: 42px;
+    height: 42px;
+    background-position: -1937px -1px;
+}
+
+.paladin-spell_holy_greaterheal {
+    width: 42px;
+    height: 42px;
+    background-position: -1981px -1px;
+}
+
+.paladin-spell_holy_heal {
+    width: 42px;
+    height: 42px;
+    background-position: -2025px -1px;
+}
+
+.paladin-spell_holy_healingaura {
+    width: 42px;
+    height: 42px;
+    background-position: -2069px -1px;
+}
+
+.paladin-spell_holy_holybolt {
+    width: 42px;
+    height: 42px;
+    background-position: -2113px -1px;
+}
+
+.paladin-spell_holy_holyguidance {
+    width: 42px;
+    height: 42px;
+    background-position: -2157px -1px;
+}
+
+.paladin-spell_holy_holysmite {
+    width: 42px;
+    height: 42px;
+    background-position: -2201px -1px;
+}
+
+.paladin-spell_holy_layonhands {
+    width: 42px;
+    height: 42px;
+    background-position: -2245px -1px;
+}
+
+.paladin-spell_holy_lightsgrace {
+    width: 42px;
+    height: 42px;
+    background-position: -2289px -1px;
+}
+
+.paladin-spell_holy_mindsooth {
+    width: 42px;
+    height: 42px;
+    background-position: -2333px -1px;
+}
+
+.paladin-spell_holy_mindvision {
+    width: 42px;
+    height: 42px;
+    background-position: -2377px -1px;
+}
+
+.paladin-spell_holy_persuitofjustice {
+    width: 42px;
+    height: 42px;
+    background-position: -2421px -1px;
+}
+
+.paladin-spell_holy_power {
+    width: 42px;
+    height: 42px;
+    background-position: -2465px -1px;
+}
+
+.paladin-spell_holy_powerwordbarrier {
+    width: 42px;
+    height: 42px;
+    background-position: -2509px -1px;
+}
+
+.paladin-spell_holy_prayerofhealing {
+    width: 42px;
+    height: 42px;
+    background-position: -2553px -1px;
+}
+
+.paladin-spell_holy_pureofheart {
+    width: 42px;
+    height: 42px;
+    background-position: -2597px -1px;
+}
+
+.paladin-spell_holy_purifyingpower {
+    width: 42px;
+    height: 42px;
+    background-position: -2641px -1px;
+}
+
+.paladin-spell_holy_retributionaura {
+    width: 42px;
+    height: 42px;
+    background-position: -2685px -1px;
+}
+
+.paladin-spell_holy_revivechampion {
+    width: 42px;
+    height: 42px;
+    background-position: -2729px -1px;
+}
+
+.paladin-spell_holy_righteousfury {
+    width: 42px;
+    height: 42px;
+    background-position: -2773px -1px;
+}
+
+.paladin-spell_holy_sealoffury {
+    width: 42px;
+    height: 42px;
+    background-position: -2817px -1px;
+}
+
+.paladin-spell_holy_sealofmight {
+    width: 42px;
+    height: 42px;
+    background-position: -2861px -1px;
+}
+
+.paladin-spell_holy_sealofprotection {
+    width: 42px;
+    height: 42px;
+    background-position: -2905px -1px;
+}
+
+.paladin-spell_holy_sealofwisdom {
+    width: 42px;
+    height: 42px;
+    background-position: -2949px -1px;
+}
+
+.paladin-spell_holy_searinglight {
+    width: 42px;
+    height: 42px;
+    background-position: -2993px -1px;
+}
+
+.paladin-spell_holy_stoicism {
+    width: 42px;
+    height: 42px;
+    background-position: -3037px -1px;
+}
+
+.paladin-spell_holy_unyieldingfaith {
+    width: 42px;
+    height: 42px;
+    background-position: -3081px -1px;
+}
+
+.paladin-spell_holy_vindication {
+    width: 42px;
+    height: 42px;
+    background-position: -3125px -1px;
+}
+
+.paladin-spell_holy_weaponmastery {
+    width: 42px;
+    height: 42px;
+    background-position: -3169px -1px;
+}
+
+.paladin-spell_magic_lesserinvisibilty {
+    width: 42px;
+    height: 42px;
+    background-position: -3213px -1px;
+}
+
+.paladin-spell_nature_lightningshield {
+    width: 42px;
+    height: 42px;
+    background-position: -3257px -1px;
+}
+
+.paladin-spell_nature_sleep {
+    width: 42px;
+    height: 42px;
+    background-position: -3301px -1px;
+}

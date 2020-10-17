@@ -1,7 +1,7 @@
-version: '3.6'
+version: '3.8'
 services:
   wcalc_webservice:
-    image: ragedunicorn/tomcat:1.1.1-dev
+    image: ragedunicorn/tomcat:1.3.0-dev
     depends_on:
       - wcalc_database
     networks:
@@ -18,7 +18,7 @@ services:
       com.ragedunicorn.tomcat.environment: "dev"
       com.ragedunicorn.tomcat.description: "WoW Talentcalculator Apache tomcat"
   wcalc_database:
-    image: ragedunicorn/mariadb:1.1.1-dev
+    image: ragedunicorn/mariadb:1.3.0-dev
     volumes:
       - mariadb_data:/var/lib/mysql
     networks:

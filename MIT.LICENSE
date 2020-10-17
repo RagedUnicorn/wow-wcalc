@@ -1,13 +1,3 @@
-# wow-wcalc
-
-> A base backend and frontend for creating talent calculators for classic, burning crusade and wrath of the lich king
-
-## development
-
-Base url: `http://localhost:8080/wcalc-api/wcalc/wotlk/klass`
-
-## License
-
 Copyright (c) 2020 Michael Wiesendanger
 
 Permission is hereby granted, free of charge, to any person obtaining
